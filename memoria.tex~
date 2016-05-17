@@ -347,9 +347,9 @@ jQuery-UI es un conjunto de interacciones de interfaz de usuario, efectos, widge
 \section{Highcharts} 
 \label{sec:estadoarte}
 
-Highcharts es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
+HighCharts es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
 
-Es abierto, todas las características pueden ser personalizadas permitiendo una gran flexibilidad. Además Highcharts está escrito solamente con código Javascript, sólo se requiere incluir el archivo highcharts.js y cualquiera de los tres frameworks más populares de Javascript (jQuery, MooTools o Prototype), que en nuestro caso es jQuery.
+Es abierto, todas las características pueden ser personalizadas permitiendo una gran flexibilidad. Además HighCharts está escrito solamente con código Javascript, sólo se requiere incluir el archivo highcharts.js y cualquiera de los tres frameworks más populares de Javascript (jQuery, MooTools o Prototype), que en nuestro caso es jQuery.
 
 \section{JSLint} 
 \label{sec:estadoarte}

@@ -1,0 +1,7 @@
+AGRADECIMIENTOS
+INTRODUCCION
+
+DISEÑO E IMPLEMENTACION
+-> Creación de cuentas de usuario (que hace el servidor, y que el cliente), proceso desde que se introduce un ejercicio(a nivel de servidor y de cliente), primero la comunicacion cliente con el servidor, todo lo que hace el servidor despues, y que es lo que el servidor le devuelve al cliente para que lo muestre. Todo ello implica explicar como se crean los ficheros, los estudiantes ( en el caso de analisis de profesor ), los errores. 
+RESULTADOS
+CONCLUSIONES->CONSECUCION DE OBJETIVOS
