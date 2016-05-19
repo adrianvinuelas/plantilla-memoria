@@ -347,9 +347,9 @@ jQuery-UI es un conjunto de interacciones de interfaz de usuario, efectos, widge
 \section{Highcharts} 
 \label{sec:estadoarte}
 
-HighCharts es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
+Highcharts es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
 
-Es abierto, todas las características pueden ser personalizadas permitiendo una gran flexibilidad. Además HighCharts está escrito solamente con código Javascript, sólo se requiere incluir el archivo highcharts.js y cualquiera de los tres frameworks más populares de Javascript (jQuery, MooTools o Prototype), que en nuestro caso es jQuery.
+Es abierto, todas las características pueden ser personalizadas permitiendo una gran flexibilidad. Además Highcharts está escrito solamente con código Javascript, sólo se requiere incluir el archivo highcharts.js y cualquiera de los tres frameworks más populares de Javascript (jQuery, MooTools o Prototype), que en nuestro caso es jQuery.
 
 \section{JSLint} 
 \label{sec:estadoarte}
@@ -1122,7 +1122,89 @@ Por otro lado, no se necesita la figura del profesor en un primer momento para q
 
 Por supuesto, no pretende sustituir la figura del profesor pero sí ayudar en su labor de enseñar a los alumnos.
 
+Se ha simulado que un profesor ha utilizado la aplicación (una vez a finalizado el cuatrimestre). En total se han analizado trece ejercicios.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejerciciostotales}
+  \caption{Lista de ejercicios analizados durante el curso.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Por un lado podemos ver que la evolución a lo largo del curso es la siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/evolucioncurso}
+  \caption{Evolución a lo largo del curso.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Como resultados podemos observar una serie de subidas y bajadas en lo referido al número de errores a lo largo del tiempo. Los resultados que podemos sacar de esta gráfica son:
+
+\begin{itemize}
+  \item Partimos de que al principio se parte de un número de 1911 errores. El primer ejercicio lo entregaron un total de 30 alumnos.
+  \item En el segundo ejercicio vemos que el número de errores ha disminuido considerablemente en 582 errores.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejercicios1y2}
+  \caption{Ejercicios 1 y 2 del curso.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Esto se debe a que 8 alumnos no entregaron el ejercicio. La aplicación nos informa de ello. Por tanto, es lógico que el número de errores haya disminuido.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/noentregados}
+  \caption{Alumnos que no han entregado el segundo ejercicio.}
+  \label{fig:arquitectura}
+\end{figure}
+
+  \item El tercer ejercicio puede extra\~{n}arnos puesto que el número de errores es de 47. Esto se debe a que hay ejercicios que se realizan en clase. Este es un ejemplo de ello. Solo 5 alumnos lo entregaron, lo cual da una pista al profesor de que alumnos van a clase (aunque no es una herramienta que mida la asistencia) y que alumnos están participando activamente durante las clases.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejer3clase}
+  \caption{Número de errores ejercicio realizado en clase.}
+  \label{fig:arquitectura}
+\end{figure}
+
+
+  \item Los ejercicios cuarto y quinto son el mismo ejercicio de entrega, pero uno en la rama \textbf{master} y otro en la rama \textbf{gh-pages}. Como se observa la diferencia de errores es mínima. Esto se debe a que el cuarto ejercicio lo entregaron 11 alumnos y en el quinto hubo 2 de los 11 que no lo entregaron (no lo pasaron a la rama gh-pages, se los considera no entregado por ese motivo). 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejer4y5}
+  \caption{Mismo ejercicio, ramas diferentes.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Este mismo caso se cumple en los ejercicios noveno y décimo analizados.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejer9y10}
+  \caption{Mismo ejercicio, ramas diferentes. Es una práctica importante del curso.}
+  \label{fig:arquitectura}
+\end{figure}
+
+En este caso es al revés. En el noveno, que es la rama \textbf{master}, lo entregaron 17 alumnos y en el décimo, que es la rama \textbf{gh-pages}, lo entregaron 24. Esto se debe a que hay ejercicios que se piden que sean entregados directamente en la rama gh-pages y por eso hay alumnos que directamente no entregan nada en la rama master y si en la rama gh-pages. Como se puede ver la diferencia de errores entre una rama y otra es de 1022 errores. Por tanto, no solo vale con analizar una rama en muchos casos, si no que analizar las dos nos puede decir con más exactitud que alumnos entregaron un ejercicio y que alumnos no. Además, estos dos ejercicios (que en realidad son uno pero separado en dos ramas) son una práctica importante del curso (y no un ejercicio de entrega normal), con lo cual el número de errores vuelve a subir porque lo han entregado la mayoría de los alumnos, y los ficheros suelen tener mucho más código. 
+  \item Y para terminar la simulación podemos observar el top 5 de los errores más comunes a lo largo del curso. Estos errores pueden dar una idea de que puntos debe comentar el profesor en clase a sus alumnos. En nuestro caso, vemos que los errores más comunes son:
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/errcomunprueba}
+  \caption{Errores más comunes entre los alumnos a lo largo del curso.}
+  \label{fig:arquitectura}
+\end{figure}
+\begin{itemize}
+  \item Que se espera un elemento 'X' en una posición 'Y' cuando en realidad esta en la posición 'Z'. Este error tiene mucho que ver con el segundo error más común, ya que en muchos casos el uso de tabulaciones hace que el código quede peor estructurado aunque pueda parecer lo contrario.
+  \item Uso de espacios en lugar de tabulaciones. Como bien he explicado antes, puede parecer que el código queda mejor estructurado si se usan tabulaciones, pero cuando tienes que usar 7 u 8 tabulaciones nos quedamos sin pantalla y el código queda muy separado. Si se usan espacios, el código queda más ordenado.
+ \item Los errores más comunes 3 y 4 están totalmente relacionados. Bien se sabe que en Javascript no hace falta definir variables para usarlas pero aunque no salgan fallos a la hora de compilar y ejecutar, no es una buena metodología. Si se definen las variables, el código se entenderá mucho más rápido. Los alumnos deben de coger una buena metodología a la hora de aprender a programar
+\end{itemize}
+\end{itemize}
+
+El haber hecho uso de la aplicación ha permitido al profesor por un lado darse cuenta de que alumnos han entregado los ejercicios, que alumnos no han entregado los ejercicios, que alumnos han hecho los ejercicios que se realizan en clase (y por tanto han asistido a las clases), ahora sabe cuales son los errores más comunes entre sus alumnos con lo que sabe cuales son los aspectos en los que les tiene que insistir más a sus alumnos, además de intentar explicarselo como también a los alumnos que pueda tener en un futuro, puesto que le da una pista de en que puntos suelen estar más flojos los alumnos desde el principio y por tanto tiene que intentar insistir a sus futuros alumnos desde un primer momento en tomar una buena metodología de programación.   
 
 
 
