@@ -113,7 +113,7 @@ FIXME: Título
 \end{center}
 
 \vspace{1cm}
-La defensa del presente Proyecto Fin de Carrera se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 20XX, siendo calificada por el siguiente tribunal:
+La defensa del presente Proyecto Fin de Carrera se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2016, siendo calificada por el siguiente tribunal:
 
 
 \vspace{0.5cm}
@@ -135,7 +135,7 @@ y habiendo obtenido la siguiente calificación:
 
 \vspace{1cm}
 \begin{flushright}
-Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 20XX
+Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 2016
 \end{flushright}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -177,13 +177,13 @@ Gracias a todos, porque se que os alegráis siempre más que yo por todo lo bueno 
 %\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
 \markboth{RESUMEN}{RESUMEN} % encabezado
 
-Este proyecto trata de mejorar el desarrollo y las habilidades de los alumnos a la hora de escribir programas usando código Javascript durante sus a\~{n}os de formación en la universidad, así como dar una visión, del progeso durante el curso, tanto general de toda la clase como específica de cada alumno al profesor. Es decir, por un lado se intenta ayudar al profesor a tener una ídea de la evolución de sus alumnos, para poder afrontar las clases de la mejor manera posible ayudando a sus alumnos a mejorar sus habilidades, y por otro lado se intenta que los alumnos se den cuenta de cuales son sus errores y cuales son las mejores técnicas para escribir código Javascript y continuar progresando en su formación.
+Este proyecto trata de mejorar el desarrollo y las habilidades de los alumnos a la hora de escribir programas usando código Javascript durante sus a\~{n}os de formación en la universidad, así como dar una visión, del progreso durante el curso, tanto general de toda la clase como específica de cada alumno al profesor. Es decir, por un lado se intenta ayudar al profesor a tener una idea de la evolución de sus alumnos, para poder afrontar las clases de la mejor manera posible ayudando a sus alumnos a mejorar sus habilidades, y por otro lado se intenta que los alumnos se den cuenta de cuales son sus errores y cuales son las mejores técnicas para escribir código Javascript y continuar progresando en su formación.
 
 Para ello se ha creado una aplicación web en la que tanto alumnos como profesores puedan incluir el ejercicio que se quiere analizar (en el caso del rol de profesor analiza los ejercicios de toda la clase) y posteriormente la aplicación realiza y muestra un análisis detallado de todos los errores que encuentra en el ejercicio, y permite realizar un seguimiento a lo largo del tiempo para ver la progresión de los alumnos.
 
 Se han empleado tecnologías como Bootstrap, jQuery, jQuery-UI para el desarrollo de la web. Por otro lado con Django he implementado el servidor (implementado en Python), y con AJAX he realizado las comunicaciones entre servidor y cliente (implementado en Javascript). Con Highcharts he podido realizar las gráficas, y con JSLint y JSHint he realizado el análisis del código Javascript. 
 
-El proyecto surge de una ídea de mi tutor, el cual como profesional en el campo educativo me comunica que necesita una herramienta para intentar ayudar a sus alumnos a mejorar el desarrollo de sus programas usando como lenguaje Javascript. Poco a poco se van incluyendo nuevas ídeas que dan como resultado este proyecto.
+El proyecto surge de una idea de mi tutor, el cual como profesional en el campo educativo me comunica que necesita una herramienta para intentar ayudar a sus alumnos a mejorar el desarrollo de sus programas usando como lenguaje Javascript. Poco a poco se van incluyendo nuevas ideas que dan como resultado este proyecto.
 
 %Gregorio: Aquí viene un resumen del proyecto. Ha de constar de tres o cuatro párrafos,
 %donde se presente de manera clara y concisa de qué va el proyecto. Han
@@ -254,7 +254,7 @@ The project stems from an idea of my tutor, who as a professional in the field o
 
 Este proyecto está pensado para ayudar a los futuros desarrolladores, y que actualmente son estudiantes, a mejorar su formación y habilidades a la hora de desarrollar código Javascript. Su finalidad es totalmente educativa, y tiene que quedar claro que es una herramienta orientativa, puesto que los errores que muestra no hay que interpretarlos como que el código está desarrollado mal, ya que puede que funcione perfectamente.
 
-Es una aplicación web, que sirve de herramienta tanto a alumnos como a profesores. La aplicación busca dar una orientación a los estudiantes para que desarrollen códigos que puedan ser legibles y entendibles por una persona que tenga que usarlo posteriormente. Es verdad que los alumnos solo hacen ejercicios semanales y prácticas finales, pero en la vida laboral normalmente se trabaja con códigos desarrollados por varias personas, y que por tanto tienen que estar claros y ser perfectamente legibles, independientemente de que funcionen correctamente, ya que el entender un código facilmente puede ahorrar muchas horas de trabajo a la persona que lo lee por primera vez.
+Es una aplicación web, que sirve de herramienta tanto a alumnos como a profesores. La aplicación busca dar una orientación a los estudiantes para que desarrollen códigos que puedan ser legibles y entendibles por una persona que tenga que usarlo posteriormente. Es verdad que los alumnos solo hacen ejercicios semanales y prácticas finales, pero en la vida laboral normalmente se trabaja con códigos desarrollados por varias personas, y que por tanto tienen que estar claros y ser perfectamente legibles, independientemente de que funcionen correctamente, ya que el entender un código fácilmente puede ahorrar muchas horas de trabajo a la persona que lo lee por primera vez.
 
 Al principio yo mismo no entendía muy bien el por qué de darle tanta importancia por parte de profesores que nos animaban a escribir nuestros códigos de una manera ordenada y clara. Cuando comencé el proyecto, y a medida que iba avanzándolo, me daba cuenta de que realizar ciertas acciones simples puede mejorar nuestra forma de desarrollar nuestro código. ¿A quién no le ha pasado escribir un código de un programa, dejarlo apartado durante un tiempo, volverlo a retomar y decir: ``No entiendo que hice aquí''? Creo que no somos conscientes cuando escribimos nuestros programas de que con el tiempo, habremos hecho tantos programas que es muy difícil acordarse de todas las funcionalidades que hemos ido implementando. Por esta razón, acciones tan sencillas como estructurar bien el código, dar buenos nombres a nuestras variables y funciones, e incluso usar correctamente espacios y tabulaciones, pueden facilitarnos mucho el trabajo el día de ma\~{n}ana.
 
@@ -272,21 +272,21 @@ Es una idea muy simple pero que la mayoría no implementamos correctamente. Y es 
 \section{Objetivo general}
 \label{sec:objetivo-general}
 
-LLega un momento en el que no solo tienes que tratar con códigos desarrollados por ti mismo, si no que tienes que enfrentarte a códigos desarrollados por otras personas y los cuales tienes que analizar para poder trabajar con ellos. Y es en ese momento cuando uno se da cuenta de lo importante que es dessarrollar un código límpio y legible, para que cuando otras personas tengan que utilizarlo, sepan como interpretarlo facilmente dentro de la dificultad que tiene el que muy probablemente no haya dos personas que utilicen las mismas técnicas a la hora de desarrollar su código, ya sea en el lenguaje de programación que sea.
+Llega un momento en el que no solo tienes que tratar con códigos desarrollados por ti mismo, si no que tienes que enfrentarte a códigos desarrollados por otras personas y los cuales tienes que analizar para poder trabajar con ellos. Y es en ese momento cuando uno se da cuenta de lo importante que es desarrollar un código limpio y legible, para que cuando otras personas tengan que utilizarlo, sepan como interpretarlo fácilmente dentro de la dificultad que tiene el que muy probablemente no haya dos personas que utilicen las mismas técnicas a la hora de desarrollar su código, ya sea en el lenguaje de programación que sea.
 
 Por esta razón, el objetivo general del proyecto es transmitir a los usuarios (principalmente los estudiantes, que son quienes están comenzando a desarrollar su código) de la aplicación que tan importante es que funcione el código que estamos escribiendo, como que sea entendible por otros usuarios. Muchas veces, cuando nos preguntan que si podemos echar una mano a alguien, cuando nos encontramos ante un código que contiene muchas líneas, si el nombre de las variables, las tabulaciones, los espacios, o nombres de funciones por ejemplo no nos ayudan a entender que se está haciendo o que es lo que se quiere hacer, es muy difícil entender un programa. Y es peor aún cuando te pasan un código que no es legible, y que además no puedes contactar con la persona que lo ha desarrollado para que te explique el por qué de que el código esté así desarrollado.
 
-Conseguir transmitir la idea de que un código límpio, legible, bien estructurado, y que ayude a entender lo que se está haciendo es tan importante como que funcione bien es fundamental. Y si este trabajo se comienza a hacer desde que los alumnos comienzan su formación, se conseguirá que en el futuro encontremos buenos códigos desarrollados correctamente dentro de unas ciertas pautas. La idea también es hacer entender que seguir las pautas que creamos correctas para desarrollar un buen código no tienen por qué ser las mismas para todos los usuarios, pero si que si todos seguimos un mismo camino será más fácil que todos desarrollemos buenos códigos. Es como aprender a escribir, a todos nos ense\~{n}an desde peque\~{n}os pero no todos nos expresamos igual. La idea es expresarse lo mejor posible para que los demás nos entiendan. Con los códigos pasa exactamente lo mismo. En ningún caso debemos tomar las pautas que se establecen en este proyecto como reglas estrictas que haya que seguir y si a modo de consejo. Simplemente como una ayuda para que nuestro código sea accesible para todos.
+Conseguir transmitir la idea de que un código limpio, legible, bien estructurado, y que ayude a entender lo que se está haciendo es tan importante como que funcione bien es fundamental. Y si este trabajo se comienza a hacer desde que los alumnos comienzan su formación, se conseguirá que en el futuro encontremos buenos códigos desarrollados correctamente dentro de unas ciertas pautas. La idea también es hacer entender que seguir las pautas que creamos correctas para desarrollar un buen código no tienen por qué ser las mismas para todos los usuarios, pero si que si todos seguimos un mismo camino será más fácil que todos desarrollemos buenos códigos. Es como aprender a escribir, a todos nos ense\~{n}an desde peque\~{n}os pero no todos nos expresamos igual. La idea es expresarse lo mejor posible para que los demás nos entiendan. Con los códigos pasa exactamente lo mismo. En ningún caso debemos tomar las pautas que se establecen en este proyecto como reglas estrictas que haya que seguir y si a modo de consejo. Simplemente como una ayuda para que nuestro código sea accesible para todos.
 
 
 \section{Objetivos específicos}
 \label{sec:objetivos-especificos}
 
-Centrándome más en unos objetivos especificos que me gustaría conseguir, podemos diferenciar dos: uno a nivel de profesor y otro a nivel de alumno.
+Centrándome más en unos objetivos específicos que me gustaría conseguir, podemos diferenciar dos: uno a nivel de profesor y otro a nivel de alumno.
 
-Empezando por la parte del profesor, lo que he intentado buscar es una forma de poder dar al profesor tanto una visión general de como toda la clase (los alumnos) desarrolla el código Javascript de los ejercicios que semanalmente entregan, como una visión especifica de cada alumno en particular. El objetivo para la parte del profesor es que el profesor pueda realizar un seguimiento de todos sus alumnos por cada ejercicio entregado y poder ver como estos desarrollan su código Javascript. Por cada ejercicio semanal, se realiza un análisis tanto a nivel colectivo como individual de los errores (que realmente no son errores pero que los trataremos como tales) que los alumnos han cometido, y se da una idea al profesor de que aspectos deberían mejorar a la hora de desarrollar el código, ya sea bien usar espacios en lugar de tabulaciones, declarar variables antes de usarlas (puesto que en Javascript no se tiene por qué declarar variables antes de usarlas) entre otros muchos aspectos que se podrían mejorar y en los que el profesor pueda hacer incapié para intentar que sus alumnos mejoren. Creo que a los profesores les gusta ver que los ejercicios de sus alumnos, además de que funcionen, estén bien desarrollados y estructurados.
+Empezando por la parte del profesor, lo que he intentado buscar es una forma de poder dar al profesor tanto una visión general de como toda la clase (los alumnos) desarrolla el código Javascript de los ejercicios que semanalmente entregan, como una visión especifica de cada alumno en particular. El objetivo para la parte del profesor es que el profesor pueda realizar un seguimiento de todos sus alumnos por cada ejercicio entregado y poder ver como estos desarrollan su código Javascript. Por cada ejercicio semanal, se realiza un análisis tanto a nivel colectivo como individual de los errores (que realmente no son errores pero que los trataremos como tales) que los alumnos han cometido, y se da una idea al profesor de que aspectos deberían mejorar a la hora de desarrollar el código, ya sea bien usar espacios en lugar de tabulaciones, declarar variables antes de usarlas (puesto que en Javascript no se tiene por qué declarar variables antes de usarlas) entre otros muchos aspectos que se podrían mejorar y en los que el profesor pueda hacer hincapié para intentar que sus alumnos mejoren. Creo que a los profesores les gusta ver que los ejercicios de sus alumnos, además de que funcionen, estén bien desarrollados y estructurados.
 
-En segundo lugar , centrándome en la parte del alumno, el objetivo es quizás más difícil, puesto que para los alumnos lo primero es ver que lo que escriben en su código funciona y lo demás es un poco más secundario para ellos, por lo que el reto es mucho mayor. Yo también he sido alumno y esa era mi principal preocupación, pero en mi primer curso hice un programa enorme que funcionaba perfectamente y hacía todo lo que se me pedía, pero suspendí porque era totalmente ilegible (la inexperiencia del primer a\~{n}o). En su momento me parecio muy injusto, pero luego entendí que tan importante es que funcione como que se pueda leer y entender por otros usuarios. Por eso busco ayudar a los alumnos para que entiendan desde el primer momento que tienen que esforzarse también por desarrollar un código legible y límpio. Creo que si se empieza la formación por una buena base y se acostumbra a los futuros alumnos a escribir su código siguiendo una serie de pautas, el día de ma\~{n}ana cuando nos pasen un código que no es nuestro (y que es el pan de cada día en muchos trabajos) el esfuerzo por entender lo que hace el programa y como lo hace será mucho mas rápido y fácil.
+En segundo lugar , centrándome en la parte del alumno, el objetivo es quizás más difícil, puesto que para los alumnos lo primero es ver que lo que escriben en su código funciona y lo demás es un poco más secundario para ellos, por lo que el reto es mucho mayor. Yo también he sido alumno y esa era mi principal preocupación, pero en mi primer curso hice un programa enorme que funcionaba perfectamente y hacía todo lo que se me pedía, pero suspendí porque era totalmente ilegible (la inexperiencia del primer a\~{n}o). En su momento me pareció muy injusto, pero luego entendí que tan importante es que funcione como que se pueda leer y entender por otros usuarios. Por eso busco ayudar a los alumnos para que entiendan desde el primer momento que tienen que esforzarse también por desarrollar un código legible y limpio. Creo que si se empieza la formación por una buena base y se acostumbra a los futuros alumnos a escribir su código siguiendo una serie de pautas, el día de ma\~{n}ana cuando nos pasen un código que no es nuestro (y que es el pan de cada día en muchos trabajos) el esfuerzo por entender lo que hace el programa y como lo hace será mucho mas rápido y fácil.
 
 
 \section{Planificación temporal}
@@ -302,7 +302,7 @@ La forma en la que me he organizado para realizar este proyecto ha sido la sigui
   \item Pasar la primera a versión a una segunda versión que incluía Bootstrap, para dar una forma más moderna y atractiva al proyecto. De momento sólo con la funcionalidad del profesor aún por mejorar. Este paso fue adaptar lo que ya tenía a una versión más moderna visualmente.
   \item Incluí la funcionalidad del alumno, y mejoré la del profesor para que analizara todos los ejercicios de sus alumnos de manera automática cuando el profesor indicaba que ejercicio quería analizar.
   \begin{itemize}
-    \item Hasta este momento todavia no había incluido ni JSHint, ni Highcharts.
+    \item Hasta este momento todavía no había incluido ni JSHint, ni Highcharts.
   \end{itemize}
   \item Introducción de una segunda herramienta que complementara el análisis realizado por JSLint, ya que para ciertos alumnos, al cometer errores que JSLint consideraba graves la propia herramienta paraba el análisis. Hablo de JSHint. Ambas herramientas no miden lo bueno o malo que es un código Javascript, simplemente ayudan a mejorar y orientar al desarrollador para mejorar su código y hacerlo más legible y eficaz.
   \item Para que el análisis de los errores fuera más visual, introduje finalmente Highcharts que me permitía utilizar gráficas para mostrar el número de errores de cada tipo que había identificado la aplicación. También aproveché esta herramienta para facilitar el seguimiento de la evolución a lo largo del tiempo que muestro al usuario en su menú principal.
@@ -324,72 +324,85 @@ La forma en la que me he organizado para realizar este proyecto ha sido la sigui
 Las tecnologías utilizadas son: Bootstrap, jQuery, jQuery-UI, Highcharts, JSLint, JSHint, Django, y AJAX.
 
 \section{Bootstrap} 
-\label{sec:estadoarte}
+\label{sec:bootstrap}
 
-Bootstrap es un framework o conjunto de herramientas de código abierto para dise\~{n}o de sitios y aplicaciones web. Contiene plantillas de dise\~{n}o con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de dise\~{n}o basado en HTML y CSS.
+Bootstrap\footnote{\url{http://getbootstrap.com}} es un framework o conjunto de herramientas de código abierto para dise\~{n}o de sitios y aplicaciones web. Contiene plantillas de dise\~{n}o con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de dise\~{n}o basado en HTML y CSS.
 
-Para usar Bootstrap en una página HTML, el desarrollador solo debe descargar la hoja de estilo Bootstrap CSS y enlazarla en el archivo HTML. Permite dise\~{n}ar las aplicaciones web tanto para móviles,ordenadores o tablets sin tener que modificar la hoja de estilo CSS de nuestro proyecto, puesto que el estilo viene definido en una serie de clases. Solo con darle una clase a nuestro objeto este ya aplica sus propiedades,lo cual facilita mucho el trabajo.
+Para usar Bootstrap en una página HTML, el desarrollador solo debe descargar la hoja de estilo Bootstrap CSS y enlazarla en el archivo HTML. Permite dise\~{n}ar las aplicaciones web tanto para móviles, ordenadores o \emph{tablets} sin tener que modificar la hoja de estilo CSS de nuestro proyecto, puesto que el estilo viene definido en una serie de clases. Solo con darle una clase a nuestro objeto este ya aplica sus propiedades, lo que facilita mucho el trabajo.
+
 
 \section{jQuery} 
-\label{sec:estadoarte}
+\label{sec:jquery}
 
-jQuery es una biblioteca de Javascript que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. jQuery es software libre y de código abierto permitiendo su uso en proyectos libres y privados. Ofrece una serie de funcionalidades basadas en Javascript que de otra manera requerirían de mucho más código, es decir, con las funciones propias de esta biblioteca se logran grandes resultados en menos tiempo y espacio.
+jQuery\footnote{\url{https://jquery.com/}} es una biblioteca de Javascript que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. jQuery es software libre y de código abierto permitiendo su uso en proyectos libres y privados. Ofrece una serie de funcionalidades basadas en Javascript que de otra manera requerirían de mucho más código, es decir, con las funciones propias de esta biblioteca se logran grandes resultados en menos tiempo y espacio.
 
 jQuery consiste en un único fichero Javascript que contiene las funcionalidades comunes de DOM, eventos, efectos y AJAX. Su característica principal es que permite cambiar el contenido de una página web sin necesidad de recargarla, mediante la manipulación del árbol DOM y peticiones AJAX. Para ello utiliza las funciones de un API fácil de usar que funciona a través de una multitud de navegadores.
 
-\section{jQuery-UI} 
-\label{sec:estadoarte}
 
-jQuery-UI es una biblioteca de componentes para el framework jQuery que le a\~{n}aden un conjunto de plug-ins, widgets y efectos visuales para la creación de aplicaciones web. Cada componente o módulo se desarrolla de acuerdo a la filosofía de jQuery.
+\section{jQuery-UI} 
+\label{sec:jqueryui}
+
+jQuery-UI\footnote{\url{https://jqueryui.com}} es una biblioteca de componentes para el framework jQuery que le a\~{n}aden un conjunto de plug-ins, widgets y efectos visuales para la creación de aplicaciones web. Cada componente o módulo se desarrolla de acuerdo a la filosofía de jQuery.
 
 jQuery-UI es un conjunto de interacciones de interfaz de usuario, efectos, widgets y temas creados por encima de la biblioteca de Javascript jQuery. El uso de los diferentes módulos de jQuery-UI te permite realizar una aplicación altamente interactiva.
 
-\section{Highcharts} 
-\label{sec:estadoarte}
 
-Highcharts es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
+\section{Highcharts} 
+\label{sec:highcharts}
+
+Highcharts\footnote{\url{http://www.highcharts.com}} es una librería escrita en Javascript que permite la creación de gráficas. La librería ofrece un método fácil e interactivo para insertar gráficas en un sitio web o aplicación web. La librería es compatible con todos los navegadores modernos incluyendo iPhone/iPad e Internet Explorer desde su versión 6. 
 
 Es abierto, todas las características pueden ser personalizadas permitiendo una gran flexibilidad. Además Highcharts está escrito solamente con código Javascript, sólo se requiere incluir el archivo highcharts.js y cualquiera de los tres frameworks más populares de Javascript (jQuery, MooTools o Prototype), que en nuestro caso es jQuery.
 
+
 \section{JSLint} 
-\label{sec:estadoarte}
+\label{sec:jslint}
 
 JSLint es una herramienta de análisis estático de código utilizada en el desarrollo de software para comprobar si el código fuente Javascript cumple con las normas de codificación . Se proporciona principalmente como una herramienta en línea, pero también hay adaptaciones de línea de comandos.
 
 Realiza la lectura del código fuente y devuelve observaciones o puntos en los que el código puede mejorarse desde la percepción de buenas prácticas de programación y código limpio. Nos permitirá mostrar puntos en los que el código no cumpla unas determinadas reglas establecidas de ``código limpio''.
 
 \section{JSHint} 
-\label{sec:estadoarte}
+\label{sec:jshint}
 
 JSLint no es una herramienta óptima ya que da muchos falsos positivos. Además los criterios evaluados son bastante subjetivos según el punto de vista del usuario. Por ello, algunos desarrolladores crearon un fork llamado JSHint. El objetivo de JSHint es mejorar las mediciones que son bastante arbitrarias en JSLint.
 
 La utilización de estas herramientas debe ser prudente, a modo de consejos sobre nuestro código fuente y no como reglas estrictas. En todo caso, no hay que ofuscarse pensando que nuestro código está absolutamente bien o mal según los resultados obtenidos.
 
 \section{AJAX} 
-\label{sec:estadoarte}
+\label{sec:ajax}
 
-AJAX es una técnica de desarrollo web para crear aplicaciones interactivas. Estas aplicaciones se ejecutan en el cliente, es decir, en el navegador de los usuarios mientras se mantiene la comunicación asíncrona con el servidor en segundo plano. De esta forma es posible realizar cambios sobre las páginas sin necesidad de recargarlas, mejorando la interactividad, velocidad y usabilidad en las aplicaciones.
+AJAX\footnote{\url{http://api.jquery.com/jquery.ajax/}} es una técnica de desarrollo web para crear aplicaciones interactivas. Estas aplicaciones se ejecutan en el cliente, es decir, en el navegador de los usuarios mientras se mantiene la comunicación asíncrona con el servidor en segundo plano. De esta forma es posible realizar cambios sobre las páginas sin necesidad de recargarlas, mejorando la interactividad, velocidad y usabilidad en las aplicaciones.
 
 AJAX es una tecnología asíncrona, en el sentido de que los datos adicionales se solicitan al servidor y se cargan en segundo plano sin interferir con la visualización ni el comportamiento de la página, aunque existe la posibilidad de configurar las peticiones como síncronas de tal forma que la interactividad de la página se detiene hasta la espera de la respuesta por parte del servidor.
 
-\section{Django} 
-\label{sec:estadoarte}
 
-Django es un framework de desarrollo web de código abierto, escrito en Python. La meta fundamental de Django es facilitar la creación de sitios web complejos. En lugar de requerir que los desarrolladores escriban controladores y vistas para las áreas de administración de la página, Django proporciona una aplicación incorporada para administrar los contenidos, que puede incluirse como parte de cualquier página hecha con Django y que puede administrar varias páginas hechas con Django a partir de una misma instalación; la aplicación administrativa permite la creación, actualización y eliminación de objetos de contenido, llevando un registro de todas las acciones realizadas sobre cada uno, y proporciona una interfaz para administrar los usuarios y los grupos de usuarios (incluyendo una asignación detallada de permisos)
+\section{Django} 
+\label{sec:django}
+
+Django\footnote{\url{https://www.djangoproject.com}} es un framework de desarrollo web de código abierto, escrito en Python. La meta fundamental de Django es facilitar la creación de sitios web complejos. En lugar de requerir que los desarrolladores escriban controladores y vistas para las áreas de administración de la página, Django proporciona una aplicación incorporada para administrar los contenidos, que puede incluirse como parte de cualquier página hecha con Django y que puede administrar varias páginas hechas con Django a partir de una misma instalación; la aplicación administrativa permite la creación, actualización y eliminación de objetos de contenido, llevando un registro de todas las acciones realizadas sobre cada uno, y proporciona una interfaz para administrar los usuarios y los grupos de usuarios (incluyendo una asignación detallada de permisos)
 
 También permite administrar bases de datos. En mi caso he usado bases de datos MySQL, pero también permite usar otras bases de datos, como PostgreSQL, SQLite, Microsoft SQL Server, y Oracle. Django proporciona una serie de funciones para el manejo de estas bases de datos, y permite crear objetos, guardarlos, modificarlos, leerlos, y eliminarlos entre otras funciones.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/djangoesquema}
+  \caption{Esquema interno Django.}
+  \label{fig:arquitectura}
+\end{figure}
 %Gregorio: Puedes citar libros, como el de Bonabeau et al. sobre procesos estigmérgicos~\cite{bonabeau:_swarm}. % Nota que el ~ añade un espacio en blanco, pero no deja que exista un salto de línea. Imprescindible ponerlo para las citas.
 
 %Gregorio: También existe la posibilidad de poner notas al pie de página, por ejemplo, 
 %una para indicarte que visite la página de
 
-Bootstrap\footnote{\url{http://getbootstrap.com}}.
-jQuery\footnote{\url{https://jquery.com/}}.
-jQuery UI\footnote{\url{https://jqueryui.com}}.
-Highcharts\footnote{\url{http://www.highcharts.com}}.
-Django\footnote{\url{https://www.djangoproject.com}}.
-AJAX\footnote{\url{http://api.jquery.com/jquery.ajax/}}.
+%FIXME: las siguientes deberían estar como referencias en el texto pricipal, o quizás como notas al pie de página:
+
+
+
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -403,13 +416,13 @@ A continuación se va a proceder a explicar en detalle cómo se han desarrollado l
 funcionalidades de este proyecto.
 \section{Arquitectura general} 
 \label{sec:arquitectura}
-El proyecto está basado en una primera comunicación por parte del cliente que realiza una petición GET HTTP al servidor para cargar la página principal. Después toda la comunicación entre cliente y servidor se realiza mediante AJAX, usando POST en los que el cliente envía los datos que la acción requiera al servidor para que este los trate de acuerdo a la necesidad del POST del cliente. Posteriormente el servidor le devuelve la página renderizada incluyendo los datos necesarios, y es el cliente el que actualiza el html con la función ``document.documentElement.innerHTML'' de Javascript.
+El proyecto está basado en una primera comunicación por parte del cliente que realiza una petición GET HTTP al servidor para cargar la página principal. Después toda la comunicación entre cliente y servidor se realiza mediante AJAX, usando POST en los que el cliente envía los datos que la acción requiera al servidor para que este los trate de acuerdo a la necesidad del POST del cliente. Posteriormente el servidor le devuelve la página renderizada incluyendo los datos necesarios, y es el cliente el que actualiza el HTML con la función ``document.documentElement.innerHTML'' de Javascript.
 
 %figura~\ref{fig:arquitectura}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.4]{img/esquema}
+  \includegraphics[scale=0.3]{img/esquema}
   \caption{Esquema comunicación.}
   \label{fig:arquitectura}
 \end{figure}
@@ -419,40 +432,47 @@ El proyecto está basado en una primera comunicación por parte del cliente que re
 Para entender el funcionamiento del proyecto, empezaré hablando de como está estructurada la base de datos.
 La base de datos está compuesta por: User, Usuario, TeacherExercise, StudentExercise, FichJs, Error, y Library.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.3]{img/diagramabbdd}
+  \caption{Diagrama bbdd.}
+  \label{fig:arquitectura}
+\end{figure}
+
 \subsection{User} 
-\label{sec:arquitectura}
+\label{sec:user}
 
 User es un objeto que Django proporciona por defecto. En el definimos el nombre (username), el email (Email address), y la contrase\~{n}a (password) del usuario que se crea.
 
 Por otro lado, los usuarios pueden tener el rol de profesor o de estudiante. Para ello aprovechamos este objeto y le incluimos el rol (first\_name). Con esto tenemos identificado al usuario tanto por su nombre como por su rol. Y cuando se loguea un usuario podemos comprobar la contrase\~{n}a para ver si es correcta la autenticación.
 
 \subsection{Usuario} 
-\label{sec:arquitectura}
+\label{sec:usuario}
 
 Este objeto puede parecer innecesario puesto que ya tenemos a un usuario definido por defecto en Django. Pero Django no permite guardar cierta información en ese objeto User. Por eso tengo definido el objeto Usuario que me permite almacenar la información relacionada con los propios usuarios de la aplicación. Almacena:
 \begin{itemize}
   \item el nombre de usuario (user, con el que puedo relacionarlo con el objeto User),
-  \item el ranking de los 5 errores más comunes (rankingerrors),
+  \item el \emph{ranking} de los 5 errores más comunes (rankingerrors),
   \item y la información necesaria para realizar la gráfica de la evolución (data).
 \end{itemize}
 
 \subsection{TeacherExercise} 
-\label{sec:arquitectura}
+\label{sec:teacherexercise}
 
 Si el usuario de la aplicación tiene el rol de profesor, almacenará datos tanto de TeacherExercise como de StudentExercise (explicado más adelante en la memoria).
 
 Un objeto TeacherExercise almacena toda la información relacionada con el ejercicio de entrega que el profesor propone (pero no de los ejercicios individuales de cada alumno). Es decir, guarda:
 \begin{itemize}
-  \item la url del ejercicio del profesor de Github (urlTeacherEx),
-  \item el resumen de los errores que han tenido todos los alumnos (sumary),
-  \item el ranking de porcentaje de errores (rankingpercent), ordenando los alumnos de menor a mayor en función del número de errores y de los ficheros entregados. Por ejemplo, en cada fichero como máximo se pueden detectar 100 errores por cada herramienta que lo analiza, es decir, un total de 200 errores por fichero. Si un alumno solo tiene 1 fichero js analizado para ese ejercicio y ha tenido 40 errores, el porcentaje de errores para ese alumno es de un 20 por ciento. Si por otro lado otro alumno ha entregado 2 ficheros y ha tenido 40 errores, el porcentaje de errores para este alumno es de un 10 por ciento (más ficheros para el mismo número de errores, por tanto, menor porcentaje),
+  \item la URL del ejercicio del profesor de GitHub (urlTeacherEx),
+  \item el resumen de los errores que han tenido todos los alumnos (summary),
+  \item el ranking de porcentaje de errores (rankingpercent), ordenando los alumnos de menor a mayor en función del número de errores y de los ficheros entregados. Por ejemplo, en cada fichero como máximo se pueden detectar 100 errores por cada herramienta que lo analiza, es decir, un total de 200 errores por fichero. Si un alumno solo tiene 1 fichero JavaScript analizado para ese ejercicio y ha tenido 40 errores, el porcentaje de errores para ese alumno es de un 20 por ciento. Si por otro lado otro alumno ha entregado 2 ficheros y ha tenido 40 errores, el porcentaje de errores para este alumno es de un 10 por ciento (más ficheros para el mismo número de errores, por tanto, menor porcentaje),
   \item el ranking de ficheros entregados (rankingfich), ordenando los alumnos de mayor a menor en función del número de ficheros entregados,
   \item el ranking de errores (rankingerrors), ordenando de mayor a menor los errores en función del número de errores totales de cada tipo que hayan tenido los alumnos para ese ejercicio,
   \item la información para crear mediante Highcharts la gráfica de los errores JSLint y JSHint (data),
-  \item la rama a la que pertenece el ejercicio (branch), puesto que en Github hay dos ramas en las que se pueden subir los ejercicios, la rama master (por defecto) o la rama gh-pages (que te crea un servidor en Github para ese ejercicio),
+  \item la rama a la que pertenece el ejercicio (branch), puesto que en GitHub hay dos ramas en las que se pueden subir los ejercicios, la rama máster (por defecto) o la rama gh-pages (que te crea un servidor en GitHub para ese ejercicio),
   \item el usuario al que pertenece el ejercicio (user), puesto que varios usuarios pueden pasar el mismo ejercicio por la aplicación,
   \item el número de errores totales que ha tenido el ejercicio (numoferrors), que luego se utilizará para la gráfica de evolución,
-  \item el número identificativo para un mismo ejercicio (numorden), puesto que un usuario puede analizar un ejercicio las veces que quiera, por tanto hay que diferenciar cada análisis, ya que la información no se sobreescribe. Es decir, un usuario puede tener almacenados:
+  \item el número identificativo para un mismo ejercicio (numorden), puesto que un usuario puede analizar un ejercicio las veces que quiera, por tanto hay que diferenciar cada análisis, ya que la información no se sobrescribe. Es decir, un usuario puede tener almacenados:
   \begin{itemize}
       \item https://github.com/CursosWeb/X-Nav-APIs-Map-Flickr (1)
       \item https://github.com/CursosWeb/X-Nav-APIs-Map-Flickr (2)
@@ -463,30 +483,30 @@ Un objeto TeacherExercise almacena toda la información relacionada con el ejerci
 \end{itemize}
 
 \subsection{StudentExercise} 
-\label{sec:arquitectura}
+\label{sec:studentexercise}
 
-Este objeto guarda información relacionada con los ejercicios que los alumnos entregan en Github, por tanto, tanto el rol de profesor (los utiliza para realizar los rankings, resúmenes y gráficas de un ejercicio de profesor) como de estudiante manejan objetos de este tipo. Almacena los siguientes datos: 
+Este objeto guarda información relacionada con los ejercicios que los alumnos entregan en GitHub, por tanto, tanto el rol de profesor (los utiliza para realizar los rankings, resúmenes y gráficas de un ejercicio de profesor) como de estudiante manejan objetos de este tipo. Almacena los siguientes datos: 
 \begin{itemize}
-  \item en el caso del rol de profesor (y solo con este rol) se guarda la url del ejercicio de profesor (urlTeacherEx) para luego poder relacionarlo con el mismo (objeto TeacherExercise),
-  \item la url del ejercicio del estudiante en Github (urlStudentEx),
-  \item el nombre del alumno en Github (nameStudent),
-  \item la url del avatar del alumno en Github (urlAvatar),
+  \item en el caso del rol de profesor (y solo con este rol) se guarda la URL del ejercicio de profesor (urlTeacherEx) para luego poder relacionarlo con el mismo (objeto TeacherExercise),
+  \item la URL del ejercicio del estudiante en GitHub (urlStudentEx),
+  \item el nombre del alumno en GitHub (nameStudent),
+  \item la URL del avatar del alumno en GitHub (urlAvatar),
   %\item un booleano que nos indica si el ejercicio esta analizado (analizado),
-  \item un resumen de los errores del alumno que solo utiliza el rol de profesor (sumary),
-  \item un número identificativo (numportfolio) para que cuando actualizo el html, pueda relacionar la foto del alumno con el contenido del ejercicio del alumno. Solo para rol de profesor,
+  \item un resumen de los errores del alumno que solo utiliza el rol de profesor (summary),
+  \item un número identificativo (numportfolio) para que cuando actualizo el HTML, pueda relacionar la foto del alumno con el contenido del ejercicio del alumno. Solo para rol de profesor,
   \item un booleano que indica si se han encontrado ficheros .js para analizar en el ejercicio (nofichfind),
   \item el número de ficheros analizados en el caso de que los haya (numfichanaliz),
   \item el porcentaje de errores que ha tenido el estudiante en el ejercicio (porcenterrorsfich),
-  \item un booleano que nos indica si hay primer fichero analizado (hayfirstfich), que se utilizará a la hora de actualizar el html,
-  \item el nombre del primer fichero analizado (firstfich), que se utilizará a la hora de actualizar el html,
+  \item un booleano que nos indica si hay primer fichero analizado (hayfirstfich), que se utilizará a la hora de actualizar el HTML,
+  \item el nombre del primer fichero analizado (firstfich), que se utilizará a la hora de actualizar el HTML,
   \item la rama a la que pertenece el ejercicio (branch),
   \item el usuario al que pertenece el ejercicio (user),
   \item el ranking de errores del ejercicio (rankingerrors), solo para el caso del rol de estudiante,
   \item la información necesaria para crear la gráfica de errores totales con Highcharts del ejercicio (data), solo para el caso del rol de estudiante,
   \item la información necesaria para crear la gráfica de errores con Highcharts del primer fichero analizado (datafich), solo para el caso del rol de estudiante,
-  \item el nombre del div del html en el que se meterá la gráfica de los errores totales del ejercicio (divdata), solo para el caso del rol de estudiante,
+  \item el nombre del div del HTML en el que se meterá la gráfica de los errores totales del ejercicio (divdata), solo para el caso del rol de estudiante,
   \item el número de errores totales que ha tenido el ejercicio (numoferrors), que luego se utilizará para la gráfica de evolución,
-  \item el número identificativo para un mismo ejercicio (numorden), puesto que un usuario puede analizar un ejercicio las veces que quiera, por tanto hay que diferenciar cada análisis, ya que la información no se sobreescribe. Es decir, un usuario puede tener almacenados:
+  \item el número identificativo para un mismo ejercicio (numorden), puesto que un usuario puede analizar un ejercicio las veces que quiera, por tanto hay que diferenciar cada análisis, ya que la información no se sobrescribe. Es decir, un usuario puede tener almacenados:
   \begin{itemize}
     \item https://github.com/alumno/X-Nav-APIs-Map-Flickr (1)
     \item https://github.com/alumno/X-Nav-APIs-Map-Flickr (2)
@@ -497,16 +517,16 @@ Este objeto guarda información relacionada con los ejercicios que los alumnos en
 \end{itemize}
 
 \subsection{FichJs} 
-\label{sec:arquitectura}
+\label{sec:fichjs}
 
-Este objeto contiene la información relacionada con el analisis de un fichero .js. Almacena los siguientes datos:
+Este objeto contiene la información relacionada con el análisis de un fichero .js. Almacena los siguientes datos:
 \begin{itemize}
-  \item la url del ejercicio del profesor, en el caso de que el usuario tenga rol de profresor (exercise),
-  \item la url del ejercicio del estudiante al que pertenece el fichero (urlstudent),
+  \item la URL del ejercicio del profesor, en el caso de que el usuario tenga rol de profesor (exercise),
+  \item la URL del ejercicio del estudiante al que pertenece el fichero (urlstudent),
   \item el nombre del fichero (name),
   \item el análisis de JSLint (analisisJSLint),
   \item el análisis de JSHint (analisisJSHint),
-  \item el resumen con el tipo de errores y el número de errores de cada tipo (sumary),
+  \item el resumen con el tipo de errores y el número de errores de cada tipo (summary),
   \item la información para crear la gráfica de los errores JSHint y JSLint con Highcharts (data),
   \item la rama a la que pertenece el fichero (branch), puesto que un mismo fichero puede estar en ambas ramas para un mismo ejercicio y entonces se considerarían ejercicios diferentes y, por tanto, ficheros diferentes,
   \item el usuario de la aplicación al que pertenece el fichero (user),
@@ -518,12 +538,12 @@ Este objeto contiene la información relacionada con el analisis de un fichero .j
 
 Este objeto contiene la información relacionada con cada error que detecta la aplicación. Almacena los siguientes datos:
     \begin{itemize}
-  \item la url del ejercicio del profesor, en el caso de que el usuario tenga rol de profresor (exercise),
-  \item la url del ejercicio del estudiante al que pertenece el error (urlstudent),
+  \item la URL del ejercicio del profesor, en el caso de que el usuario tenga rol de profesor (exercise),
+  \item la URL del ejercicio del estudiante al que pertenece el error (urlstudent),
   \item el nombre del fichero al que pertenece el error (fich),
   \item el tipo de error que es (typeoferror),
   \item la descripción del error (description),
-  \item la url donde se explica el error (solution),
+  \item la URL donde se explica el error (solution),
   \item el número de error que ocupa en el análisis (numoferror),
   \item el número que identifica de que tipo de error se trata (numtypeoferror),
   \item la línea en la que está el error dentro del fichero (line),
@@ -548,6 +568,15 @@ Este objeto contiene información relacionada con cada librería que se quiere que
 
 \subsection{Nuevos Usuarios} 
 \label{sec:arquitectura}
+
+El esquema del proceso de crear usuarios es el siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.3]{img/diacrearusuario}
+  \caption{Diagrama proceso de crear usuario.}
+  \label{fig:arquitectura}
+\end{figure}
 
 Lo primero que hay que hacer al usar la aplicación es crear un usuario. Los usuarios pueden tener el rol de profesor o el rol de estudiante. En la página de inicio creamos el usuario.
 
@@ -622,20 +651,29 @@ Cuando tengamos ejercicios analizados, en este menú principal del usuario podrem
 \subsection{Analizar ejercicio} 
 \label{sec:arquitectura}
 
-Una vez tenemos creado el usuario, vamos a hacer uso de la aplicación. Para ello se introduce la url de un ejercicio de Github. Dependiendo del rol no todas las urls son válidas. Si el usuario es profesor, solo serán válidas las urls que sean del tipo ``https://github.com/CursosWeb/nombre-del-ejercicio''. En el caso de que el usuario sea estudiante, solo serán válidas las urls que sean del tipo ``https://github.com/nombre-en-github/nombre-del-ejercicio''.
+Una vez tenemos creado el usuario, vamos a hacer uso de la aplicación. Para ello se introduce la URL de un ejercicio de GitHub. Dependiendo del rol no todas las URLs son válidas. Si el usuario es profesor, solo serán válidas las URLs que sean del tipo ``https://github.com/CursosWeb/nombre-del-ejercicio''. En el caso de que el usuario sea estudiante, solo serán válidas las URLs que sean del tipo ``https://github.com/nombre-en-github/nombre-del-ejercicio''.
 
 \subsubsection{Estudiante} 
 \label{sec:arquitectura}
+
+El esquema del proceso de analizar un ejercicio de estudiante es el siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.3]{img/diaejerestudiante}
+  \caption{Diagrama proceso de analizar ejercicio de estudiante.}
+  \label{fig:arquitectura}
+\end{figure}
 
 \begin{itemize}
   \item \textbf{front-end:}
 \end{itemize}
 
-Si el usuario es estudiante, introduce la url del ejercicio a analizar, y el cliente comprueba que la url es correcta y que el repositorio existe de verdad (puesto que la url puede tener el formato correcto pero no existir en Github). Luego envía al servidor un POST con AJAX en el que indica:
+Si el usuario es estudiante, introduce la URL del ejercicio a analizar, y el cliente comprueba que la URL es correcta y que el repositorio existe de verdad (puesto que la URL puede tener el formato correcto pero no existir en GitHub). Luego envía al servidor un POST con AJAX en el que indica:
 \begin{itemize}
-  \item la acción de analizar un repositorio indicando la url (urlanalizstudent),
+  \item la acción de analizar un repositorio indicando la URL (urlanalizstudent),
   \item la rama de la que hay que descargar el repositorio (rama),
-  \item la url del avatar del estudiante al que pertenece el ejercicio (urlavatar)
+  \item la URL del avatar del estudiante al que pertenece el ejercicio (urlavatar)
 \end{itemize}
 
 \begin{figure}[H]
@@ -659,7 +697,7 @@ Lo primero que hace el servidor es coger al usuario activo y comprobar que tiene
 
 A continuación guarda en la base de datos un nuevo ejercicio de estudiante (\textbf{StudentExercise}) con los valores iniciales por defecto, puesto que a medida que se vaya analizando se irán actualizando. 
 
-Posteriormente intenta descargar el repositorio, bien sea de la rama \textbf{master} o de la rama \textbf{gh-pages}. Si se produce algún fallo en la descarga del repositorio no se analiza nada. Si se descarga correctamente, se llama a una función que lo que hará será buscar ficheros con extensión \textbf{.js} y los analizará. Cuando encuentra un fichero \textbf{.js} , lo primero que hace es mirar a ver si es una librería o algun fichero que está en la base de datos y que no queremos analizar. Si el fichero debe ser analizado se procede a ello aplicando primero la herramienta JSLint y después JSHint. El procedimiento es el mismo para ambas herramientas:
+Posteriormente intenta descargar el repositorio, bien sea de la rama \textbf{master} o de la rama \textbf{gh-pages}. Si se produce algún fallo en la descarga del repositorio no se analiza nada. Si se descarga correctamente, se llama a una función que lo que hará será buscar ficheros con extensión \textbf{.js} y los analizará. Cuando encuentra un fichero \textbf{.js} , lo primero que hace es mirar a ver si es una librería o algún fichero que está en la base de datos y que no queremos analizar. Si el fichero debe ser analizado se procede a ello aplicando primero la herramienta JSLint y después JSHint. El procedimiento es el mismo para ambas herramientas:
 \begin{itemize}
   \item se aplica la herramienta JSLint o JSHint,
   \item se analizan uno por uno todos los errores para ver de que tipo son,
@@ -685,13 +723,22 @@ Al final se realiza el ranking de errores para el ejercicio y se da forma a la i
 \subsubsection{Profesor} 
 \label{sec:arquitectura}
 
+El esquema del proceso de analizar un ejercicio de estudiante es el siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.3]{img/diaejerprofesor}
+  \caption{Diagrama proceso de analizar ejercicio de profesor.}
+  \label{fig:arquitectura}
+\end{figure}
+
 \begin{itemize}
   \item \textbf{front-end:}
 \end{itemize}
 
-Si el usuario es profesor, introduce la url del ejercicio a analizar, y el cliente comprueba que la url es correcta y que el repositorio existe de verdad (puesto que la url puede tener el formato correcto pero no existir en Github). Después busca todos los \textbf{fork} (cada fork es un ejercicio de estudiante en Github. Es una copia del repositorio del profesor que se genera en la cuenta del alumno, y es donde el alumno entrega los ficheros de su ejercicio). Luego envía al servidor un POST con AJAX en el que indica:
+Si el usuario es profesor, introduce la URL del ejercicio a analizar, y el cliente comprueba que la URL es correcta y que el repositorio existe de verdad (puesto que la URL puede tener el formato correcto pero no existir en GitHub). Después busca todos los \textbf{fork} (cada fork es un ejercicio de estudiante en GitHub. Es una copia del repositorio del profesor que se genera en la cuenta del alumno, y es donde el alumno entrega los ficheros de su ejercicio). Luego envía al servidor un POST con AJAX en el que indica:
 \begin{itemize}
-  \item la acción de analizar un repositorio de profesor indicando la url (urlanalizall),
+  \item la acción de analizar un repositorio de profesor indicando la URL (urlanalizall),
   \item la lista de todos los fork que tiene que analizar (listForks),
   \item la rama de la que hay que descargar el repositorio (rama)
 \end{itemize}
@@ -722,7 +769,7 @@ A continuación guarda en la base de datos un nuevo ejercicio de profesor (\textb
 Una vez tenemos guardados todos los ejercicios de estudiantes que hay que analizar, los analiza uno a uno siguiendo el mismo procedimiento que ha realizado para analizar un repositorio dentro del ejercicio de estudiante explicado anteriormente:
 \begin{itemize}
   \item se descarga el repositorio del estudiante a analizar,
-  \item busca ficheros \textbf{.js}, cuando encuentra uno lo analiza, aplicando las herramientas JSLint y JSHint, identificando cada \textbf{error} y guardandolo en la base de datos,
+  \item busca ficheros \textbf{.js}, cuando encuentra uno lo analiza, aplicando las herramientas JSLint y JSHint, identificando cada \textbf{error} y guardándolo en la base de datos,
   \item guarda toda la información relacionada con cada fichero \textbf{.js},
   \item guarda toda la información relacionada con cada ejercicio de estudiante (\textbf{StudentExercise}) que analiza, es decir, toda la información analizada de cada fork que ha encontrado (ficheros, errores, y resúmenes)
 \end{itemize}
@@ -736,7 +783,16 @@ Como se puede observar, el procedimiento es prácticamente el mismo que al analiz
 \subsection{Creación de gráficas} 
 \label{sec:arquitectura}
 
-Una parte muy importante de este proyecto es interpretar los datos que nos devuelve el análisis de un ejercicio. Para facilitar su interpretación, se han implementado una serie de gráficas para facilitar la lectura de los datos. Hay dos tipos de gráficas, una son de tipo \textbf{barras} y otras de tipo \textbf{líneas}. Como bien se explicó en la sección \textbf{Estado del arte}, la herramienta utilizada para la creación de las gráficas es \textbf{Highcharts}. Las gráficas las tiene que implementar el cliente. Por esta razón se tenía que guardar en la base de datos la información relacionada con las gráficas para cada ejercicio de profesor, ejercicio de estudiante, y fichero, así como la información de la evolución a lo largo del tiempo del usuario. Para crear las gráficas, estas informaciones se incluyen en el DOM, y mediante llamadas a funciones es el cliente quien implementa las gráficas mediante el uso de Highcharts. El resultado de las gráficas es el siguiente: 
+Una parte muy importante de este proyecto es interpretar los datos que nos devuelve el análisis de un ejercicio. Para facilitar su interpretación, se han implementado una serie de gráficas para facilitar la lectura de los datos. Hay dos tipos de gráficas, una son de tipo \textbf{barras} y otras de tipo \textbf{líneas}. Como bien se explicó en la sección \textbf{Estado del arte}, la herramienta utilizada para la creación de las gráficas es \textbf{Highcharts}. Las gráficas las tiene que implementar el cliente. Por esta razón se tenía que guardar en la base de datos la información relacionada con las gráficas para cada ejercicio de profesor, ejercicio de estudiante, y fichero, así como la información de la evolución a lo largo del tiempo del usuario. Para crear las gráficas, estas informaciones se incluyen en el DOM, y mediante llamadas a funciones es el cliente quien implementa las gráficas mediante el uso de Highcharts.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.3]{img/diagraficas}
+  \caption{Diagrama proceso de creación de gráficas.}
+  \label{fig:arquitectura}
+\end{figure}
+
+El resultado de las gráficas es el siguiente: 
 \begin{itemize}
  \item Gráfica de resumen de errores totales del ejercicio:
  \begin{figure}[H]
@@ -773,13 +829,20 @@ Una parte muy importante de este proyecto es interpretar los datos que nos devue
 
 Una de las opciones que permite la aplicación, es evitar el análisis de ciertos ficheros que no son de interés puesto que no los han desarrollado los alumnos y que por tanto no aportan ninguna información necesaria al análisis.
 
-Por defecto, la aplicación ya incluye unas librerías , pero da la opción de poder a\~{n}adir a la lista nuevos ficheros \textbf{.js}.
 \begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{img/foto12}
-    \caption{Formulario para introducir ficheros que serán descartados en el análisis.}
-    \label{figura:foro_hilos}
- \end{figure}
+  \centering
+  \includegraphics[scale=0.4]{img/dialibreria}
+  \caption{Diagrama proceso de creación/eliminación librerías/ficheros.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Por defecto, la aplicación ya incluye unas librerías , pero da la opción de poder a\~{n}adir a la lista nuevos ficheros \textbf{.js}.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale=0.4]{img/foto12}
+%    \caption{Formulario para introducir ficheros que serán descartados en el análisis.}
+%    \label{figura:foro_hilos}
+% \end{figure}
 
 \subsubsection{A\~{n}adir Librería/fichero} 
 \label{sec:arquitectura}
@@ -807,7 +870,7 @@ El cliente envía al servidor un POST con AJAX en el que indica:
 
 El servidor recibe el POST e identifica que uno de los campos es \textbf{savelibrary}, por lo tanto sabe que la acción que tiene que desempe\~{n}ar es la de a\~{n}adir una librería (o fichero) a la base de datos.
 
-Para ello primero comprueba si esa librería (o fichero) ya está en la base de datos para ese usuario. Si está en la base de datos, no la vuelve a guardar y avisará al usuario con un warning.
+Para ello primero comprueba si esa librería (o fichero) ya está en la base de datos para ese usuario. Si está en la base de datos, no la vuelve a guardar y avisará al usuario con un \emph{warning}.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.4]{img/foto14}
@@ -882,6 +945,13 @@ El primero es hacer un LOGIN y el segundo es hacer un LOGOUT.
 \subsubsection{Login} 
 \label{sec:arquitectura}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/dialoguear}
+  \caption{Diagrama proceso de loguear usuario.}
+  \label{fig:arquitectura}
+\end{figure}
+
 \begin{itemize}
   \item \textbf{front-end:}
 \end{itemize}
@@ -941,6 +1011,13 @@ Si el usuario existe pero la contrase\~{n}a no es la correcta, el usuario no ser
 \subsubsection{Logout} 
 \label{sec:arquitectura}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/dialogout}
+  \caption{Diagrama proceso de desloguear usuario.}
+  \label{fig:arquitectura}
+\end{figure}
+
 \begin{itemize}
   \item \textbf{front-end:}
 \end{itemize}
@@ -970,6 +1047,13 @@ El servidor coge al usuario activo (que es el que está logueado) y lo desloguea 
 \label{sec:arquitectura}
 
 Otra de las opciones que permite la aplicación, es la de borrar la cuenta de un usuario, y con ello toda la información relacionada con el usuario.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/diaeliminarusuario}
+  \caption{Diagrama proceso de eliminar usuario.}
+  \label{fig:arquitectura}
+\end{figure}
 
 \begin{itemize}
   \item \textbf{front-end:}
@@ -1048,7 +1132,7 @@ Una de las funcionalidades de la aplicación, además de analizar los ejercicios y
   \item \textbf{front-end:}
 \end{itemize}
 
-Cuando antes explicaba en el análisis de un ejercicio que guardabamos el resumen de los errores de un fichero, era porque lo ibamos a necesitar ahora para poder ver en que parte del código está localizado el error. El resumen (en el que se agrupan todos los errores según el tipo de error) de un fichero es el siguiente:
+Cuando antes explicaba en el análisis de un ejercicio que guardábamos el resumen de los errores de un fichero, era porque lo íbamos a necesitar ahora para poder ver en que parte del código está localizado el error. El resumen (en el que se agrupan todos los errores según el tipo de error) de un fichero es el siguiente:
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.4]{img/foto33}
@@ -1056,7 +1140,7 @@ Cuando antes explicaba en el análisis de un ejercicio que guardabamos el resumen
     \label{figura:foro_hilos}
  \end{figure}
 
-Si se pulsa sobre uno de los errores en ese resumen, la aplicación nos abrirá una nueva pesta\~{n}a que nos llevará a la página de Github donde se encuentra el fichero, y nos indicará la línea en la que se localiza el error. Si pulsamos en el error 51 del ejemplo, nos mostrará la línea en el fichero:
+Si se pulsa sobre uno de los errores en ese resumen, la aplicación nos abrirá una nueva pesta\~{n}a que nos llevará a la página de GitHub donde se encuentra el fichero, y nos indicará la línea en la que se localiza el error. Si pulsamos en el error 51 del ejemplo, nos mostrará la línea en el fichero:
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.4]{img/foto34}
@@ -1088,7 +1172,7 @@ Además se puede ver la información sobre el error en concreto pulsando en la sol
   \item \textbf{back-end:}
 \end{itemize}
 
-Es el servidor quien cuando crea los errores, almacena en la base de datos para cada error la url en la que se nos mostrará donde está el error en el fichero en Github, y por otra parte almacena también la solución a ese error. Posteriormente cuando crea el resumen del fichero, incluye unos \textbf{href} en el resumen, que al pusarlos son los que nos redirigen tanto a la solución como a la visualización del error. La solución de los errores está definida en una función que tiene el servidor en la que están definidos todos los tipo de error así como sus soluciones.
+Es el servidor quien cuando crea los errores, almacena en la base de datos para cada error la URL en la que se nos mostrará donde está el error en el fichero en GitHub, y por otra parte almacena también la solución a ese error. Posteriormente cuando crea el resumen del fichero, incluye unos \textbf{href} en el resumen, que al pulsarlos son los que nos redirigen tanto a la solución como a la visualización del error. La solución de los errores está definida en una función que tiene el servidor en la que están definidos todos los tipo de error así como sus soluciones.
 
 
 
@@ -1114,13 +1198,16 @@ Es el servidor quien cuando crea los errores, almacena en la base de datos para 
 \chapter{Resultados}
 \label{chap:resultados}
 
-Una vez terminado el proyecto, tenemos ante nosotros una aplicación que permite analizar el código javascript desarrollado por estudiantes de la universidad. Analiza los errores, los agrupa por tipos, y muestra el resultado empleando gráficas y rankings que ayudan al usuario de la aplicación a tener una visión rápida del análisis del ejercicio en tan solo un minuto. 
+Una vez terminado el proyecto, tenemos ante nosotros una aplicación que permite analizar el código JavaScript desarrollado por estudiantes de la universidad. Analiza los errores, los agrupa por tipos, y muestra el resultado empleando gráficas y rankings que ayudan al usuario de la aplicación a tener una visión rápida del análisis del ejercicio en tan solo un minuto. 
 
 Puede ayudar a los alumnos a mejorar su código al mismo tiempo que lo están escribiendo, puesto que un mismo ejercicio se puede pasar por la aplicación tantas veces como se quiera y compara un ejercicio con el anterior, por tanto, los alumnos pueden corregir los errores que les muestre la aplicación en un primer análisis, y luego volver a analizar de nuevo el ejercicio para comprobar que la segunda versión entregada tiene menos errores que la primera vez que se analizó el ejercicio, y así sucesivamente. 
 
 Por otro lado, no se necesita la figura del profesor en un primer momento para que te de una explicación de por qué salen los errores ni tener que ir a buscar en internet una explicación, ya que se ha conseguido que la aplicación sea didáctica en este sentido y lo hace ella por sí misma. Muestra el motivo por el que se identifican los errores así como su solución (sacada de internet), para que el alumno no tenga que esperar a ver a su profesor para preguntarle ni pierda tiempo en buscar la explicación por su cuenta.
 
 Por supuesto, no pretende sustituir la figura del profesor pero sí ayudar en su labor de enseñar a los alumnos.
+
+\subsubsection{Simulación Profesor} 
+\label{sec:arquitectura}
 
 Se ha simulado que un profesor ha utilizado la aplicación (una vez a finalizado el cuatrimestre). En total se han analizado trece ejercicios.
 
@@ -1200,11 +1287,116 @@ En este caso es al revés. En el noveno, que es la rama \textbf{master}, lo entre
 \begin{itemize}
   \item Que se espera un elemento 'X' en una posición 'Y' cuando en realidad esta en la posición 'Z'. Este error tiene mucho que ver con el segundo error más común, ya que en muchos casos el uso de tabulaciones hace que el código quede peor estructurado aunque pueda parecer lo contrario.
   \item Uso de espacios en lugar de tabulaciones. Como bien he explicado antes, puede parecer que el código queda mejor estructurado si se usan tabulaciones, pero cuando tienes que usar 7 u 8 tabulaciones nos quedamos sin pantalla y el código queda muy separado. Si se usan espacios, el código queda más ordenado.
- \item Los errores más comunes 3 y 4 están totalmente relacionados. Bien se sabe que en Javascript no hace falta definir variables para usarlas pero aunque no salgan fallos a la hora de compilar y ejecutar, no es una buena metodología. Si se definen las variables, el código se entenderá mucho más rápido. Los alumnos deben de coger una buena metodología a la hora de aprender a programar
+ \item Los errores más comunes 3 y 4 están totalmente relacionados. Bien se sabe que en Javascript no hace falta definir variables para usarlas pero aunque no salgan fallos a la hora de compilar y ejecutar, no es una buena metodología. Si se definen las variables, el código se entenderá mucho más rápido. Los alumnos deben coger una buena metodología a la hora de aprender a programar
 \end{itemize}
 \end{itemize}
 
-El haber hecho uso de la aplicación ha permitido al profesor por un lado darse cuenta de que alumnos han entregado los ejercicios, que alumnos no han entregado los ejercicios, que alumnos han hecho los ejercicios que se realizan en clase (y por tanto han asistido a las clases), ahora sabe cuales son los errores más comunes entre sus alumnos con lo que sabe cuales son los aspectos en los que les tiene que insistir más a sus alumnos, además de intentar explicarselo como también a los alumnos que pueda tener en un futuro, puesto que le da una pista de en que puntos suelen estar más flojos los alumnos desde el principio y por tanto tiene que intentar insistir a sus futuros alumnos desde un primer momento en tomar una buena metodología de programación.   
+El haber hecho uso de la aplicación ha permitido al profesor por un lado darse cuenta de que alumnos han entregado los ejercicios, que alumnos no han entregado los ejercicios, que alumnos han hecho los ejercicios que se realizan en clase (y por tanto han asistido a las clases), ahora sabe cuales son los errores más comunes entre sus alumnos con lo que sabe cuales son los aspectos en los que les tiene que insistir más a sus alumnos, además de intentar explicárselo como también a los alumnos que pueda tener en un futuro, puesto que le da una pista de en que puntos suelen estar más flojos los alumnos desde el principio y por tanto tiene que intentar insistir a sus futuros alumnos desde un primer momento en tomar una buena metodología de programación.   
+
+\subsubsection{Simulación Alumno} 
+\label{sec:arquitectura}
+
+Por otro lado se ha realizado una simulación de como un alumno utiliza la aplicación para intentar mejorar el desarrollo de su código. El alumno ha pasado el ejercicio 5 veces por la aplicación hasta conseguir dejar un código mucho más legible y mejor desarrollado y estructurado.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejerejercicios}
+  \caption{Panel que muestra los ejercicios analizados por parte del alumno.}
+  \label{fig:arquitectura}
+\end{figure}
+
+La evolución del progreso del ejercicio ha sido la siguiente.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejerprogreso}
+  \caption{Progreso del ejercicio a medida que se ha ido analizando varias veces.}
+  \label{fig:arquitectura}
+\end{figure}
+
+El alumno parte de un primer análisis del ejercicio en el que obtiene 140 errores. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererror}
+  \caption{Gráfica que muestra los errores del ejercicio la primera vez que es analizado.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Como se puede apreciar, los errores más comunes son ``Expected ``X'' at column ``y'', not column ``z'' '' , ``Use spaces, not tabs '', ``Mixed double and single quotes'', y ``Expected === and instead saw ==''. El alumno ha identificado los errores y los ha corregido antes de pasar el ejercicio de nuevo por la aplicación.
+
+En un segundo análisis el alumno ha obtenido 171 errores. El número de errores ha aumentado debido a que en el primer análisis JSLint se paró cuando había analizado un 15 por ciento del fichero (y JSLint solamente detectó 52 errores), y al haber arreglado el error que hizo que el análisis se detuviera ha permitido que en el segundo análisis JSLint llegue hasta un 34 por ciento antes de detenerse de nuevo (está vez por haber alcanzado el número máximo de errores permitido).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererror1}
+  \caption{Gráfica que muestra los errores del ejercicio la segunda vez que es analizado.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Esta vez observamos que los errores más comunes siguen siendo ``Expected ``X'' at column ``y'', not column ``z'' '' y ``Mixed double and single quotes''. Esto indica que demomento son los errores más comunes que el alumno ha tenido, y por tanto la aplicación le está obligando a corregirlos, lo que hace que el alumno asimile como se deben solucionar estos errores y repitiendo el proceso de corregir estos errores (43 y 52 veces por cada tipo de error) lo que se busca es que el alumno vaya cogiendo la metodología de programación adecuada (y que es uno de los objetivos del proyecto).
+
+En el tercer análisis se observa que el alumno ha corregido la mayoría de los errores del tipo ``Expected ``X'' at column ``y'', not column ``z'' '' pero vemos que el número total de errores sigue siendo de 171. Esto se debe a que JSLint ha continuado analizando el fichero (hasta un 56 por ciento) pero ha vuelto a llegar al número máximo de errores permitido.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererror2}
+  \caption{Gráfica que muestra los errores del ejercicio la tercera vez que es analizado.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Ahora el alumno ha corregido de nuevo los errores que tenía en el anterior análisis. Se observa que el número de errores ya comienza a bajar (ahora ha obtenido 149) al mismo tiempo que el fichero está casi analizado por completo (95 por ciento). escaneado). El número de errores no ha bajado de forma considerable debido a que aunque el alumno ha corregido gran parte de los errores, ahora se ha analizado un 39 por ciento del fichero en el que se han seguido identificando más errores.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererror3}
+  \caption{Gráfica que muestra los errores del ejercicio la cuarta vez que es analizado.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Como se puede observar el alumno aún no ha corregido los errores del tipo ``Mixed double and single quotes''. 
+
+Ya casi con todo el fichero analizado. El alumno vuelve a arreglar los errores identificados y el resultado obtenido es que con un 100 por cien del fichero análizado (y por tanto del ejercicio puesto que solo contiene un fichero .js para analizar) el alumno ha obtenido 64 errores.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererror4}
+  \caption{Gráfica que muestra los errores del ejercicio la quinta vez que es analizado.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Ahora podemos observar que el alumno ha corregido la mayoría de los errores que le ha ido mostrando la aplicación. Como ya se explicó en la sección 3, el uso de JSLint y JSHint es a modo de consejo y no como reglas estrictas de ahí que aún queden errores por corregir. Una vez finalizado el proceso vemos como ha sido su evolución.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejerporcentajes}
+  \caption{Porcentajes escaneados del fichero por parte de JSLint.}
+  \label{fig:arquitectura}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/ejererrortotal}
+  \caption{Comparativa de los cinco análisis realizados.}
+  \label{fig:arquitectura}
+\end{figure}
+
+Una vez realizada toda la simulación podemos decir que el alumno ha ido identificando cuales son los errores más frecuentes que ha cometido, los ha ido solucionando poco a poco y asimilando los conceptos de por qué se identifican esos errores y como corregirlos. Repitiendo este proceso con todos los ejercicios que el alumno vaya desarrollando se conseguirá que el alumno vaya obteniendo una metodología de trabajo a la hora de programar en Javascript y que sus códigos sean más legibles. Vemos un ejemplo de una función del código del alumno antes y después de analizar el ejercicio.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/funcantes}
+  \caption{Función desarrollada antes del primer análisis del ejercicio.}
+  \label{fig:arquitectura}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.4]{img/funcdespues}
+  \caption{Función desarrollada después del último análisis del ejercicio.}
+  \label{fig:arquitectura}
+\end{figure}
+
 
 
 
@@ -1224,13 +1416,13 @@ El haber hecho uso de la aplicación ha permitido al profesor por un lado darse c
 En la parte de ayudar al estudiante a entender la importancia de escribir un código legible y limpio creo que se ha conseguido mediante:
 \begin{itemize}
   \item El análisis de los ejercicios, haciendo un seguimiento del alumno durante el curso de todos los ejercicios entregados y mostrando los errores más comunes que ha ido teniendo, para que mejore sus puntos débiles.
-  \item La aplicación permite ver la explicación del por qué salen los errores, es decir, unicamente no ves que identifica errores, si no que da la posibilidad al alumno de que entienda el por qué salen los errores y como solucionarlos.
+  \item La aplicación permite ver la explicación del por qué salen los errores, es decir, únicamente no ves que identifica errores, si no que da la posibilidad al alumno de que entienda el por qué salen los errores y como solucionarlos.
   \item Se muestra al alumno la línea exacta en la que se identifica el error, para que no tenga que usar otra herramienta para abrir el fichero y luego buscar manualmente donde está el error. Simplificar el trabajo ayuda a que la aplicación sea más atractiva para el usuario.
 \end{itemize}
 
 En la parte de ayudar al profesor ha realizar un seguimiento de sus alumnos creo que se ha conseguido mediante:
 \begin{itemize}
-  \item Permite saber que alumnos no entregaron el ejercicio semanal y que alumnos sí (siempre que se trate de un ejercicio de javascript) .
+  \item Permite saber que alumnos no entregaron el ejercicio semanal y que alumnos sí (siempre que se trate de un ejercicio de JavaScript) .
   \item Puede reconocer cuales son los puntos en los que sus alumnos presentan debilidades a la hora de desarrollar código (No definir variables, tabulaciones ...) .
   \item Para cada ejercicio, permite ver el análisis de todos los alumnos de forma individual. Esto le permite no solo hacer un seguimiento colectivo, si no también individual.
 \end{itemize}
@@ -1241,7 +1433,7 @@ En la parte de ayudar al profesor ha realizar un seguimiento de sus alumnos creo
 \begin{itemize} 
   \item Si se analizan librerías u otros ficheros necesarios en el ejercicio pero que no son del alumno, pierde eficacia puesto que se detectan errores que no son del alumno. La solución a este problema ha sido dar la posibilidad al usuario de introducir nombres de ficheros \textbf{.js} para evitar su análisis.
   \item El ranking de los alumnos, no es 100\% preciso, puesto que para aquellos alumnos en los que el análisis de JSLint encuentra un error grave y se detenga, tendrán menor porcentaje de errores. La solución a este problema ha sido introducir un segundo análisis con JSHint (que no detiene el análisis) para intentar ser más preciso.
-  \item Solamente analiza un lenguaje en concreto, por lo que si hay ejercicios durante el curso en los que no se usa javascript, no se podrán analizar todos los ejercicios. En una versión futura de esta herramienta esto se podría mejorar introduciendo nuevas herramientas de análisis de otros lenguajes.
+  \item Solamente analiza un lenguaje en concreto, por lo que si hay ejercicios durante el curso en los que no se usa JavaScript, no se podrán analizar todos los ejercicios. En una versión futura de esta herramienta esto se podría mejorar introduciendo nuevas herramientas de análisis de otros lenguajes.
 \end{itemize}
 %Gregorio: Esta sección es la sección espejo de las dos primeras del capítulo de objetivos,
 %donde se planteaba el objetivo general y se elaboraban los específicos.
@@ -1269,7 +1461,7 @@ En la parte de ayudar al profesor ha realizar un seguimiento de sus alumnos creo
 
 Durante la realización del Trabajo Fin de Grado he tenido que aprender el uso de nuevas tecnologías que durante mi grado no he tenido la oportunidad de aprender ya que son tecnologías especificas para realizar ciertas tareas. Estoy hablando de Highcharts, JSLint y JSHint.
 
-Estamos hablando de un Trabajo Fin de Grado en el que el objetivo principal es analizar código Javascript y por tanto necesitaba usar herramientas que me facilitasen esa tarea. Entonces descubrí lo que eran las herramientas de análisis estático de código (static analysis tools), JSLint y JSHint. Hasta el momento en el que comencé con el proyecto nunca antes había oido hablar de lo que eran este tipo de herramientas. Una vez tuve el conocimiento de su existencia, estuve realizando diferentes pruebas para entender su funcionamiento, y entender por qué al pasarle un fichero Javascript muestra los errores que detecta. Al principio solo empecé usando JSLint, pero me di cuenta de que necesitaba llegar un paso más lejos al ver que en algunas ocasiones JSLint dejaba de analizar porque detectaba errores que consideraba muy graves y, como consecuencia, decidía parar el análisis de un fichero. Como mi objetivo era analizar todo un fichero entero, y al ver que JSLint podía dejar de analizar un fichero y no completar el análisis, decidí complementar el proyecto con JSHint, que sí que analizaba un fichero entero, y complementaba la información que JSLint no proporcionaba en ciertas ocasiones. 
+Estamos hablando de un Trabajo Fin de Grado en el que el objetivo principal es analizar código Javascript y por tanto necesitaba usar herramientas que me facilitasen esa tarea. Entonces descubrí lo que eran las herramientas de análisis estático de código (static analysis tools), JSLint y JSHint. Hasta el momento en el que comencé con el proyecto nunca antes había oído hablar de lo que eran este tipo de herramientas. Una vez tuve el conocimiento de su existencia, estuve realizando diferentes pruebas para entender su funcionamiento, y entender por qué al pasarle un fichero Javascript muestra los errores que detecta. Al principio solo empecé usando JSLint, pero me di cuenta de que necesitaba llegar un paso más lejos al ver que en algunas ocasiones JSLint dejaba de analizar porque detectaba errores que consideraba muy graves y, como consecuencia, decidía parar el análisis de un fichero. Como mi objetivo era analizar todo un fichero entero, y al ver que JSLint podía dejar de analizar un fichero y no completar el análisis, decidí complementar el proyecto con JSHint, que sí que analizaba un fichero entero, y complementaba la información que JSLint no proporcionaba en ciertas ocasiones. 
 
 JSLint y JSHint me parecen unas herramientas muy útiles y que pueden ayudar a los alumnos a desarrollar mejores códigos y más legibles. %Si yo hubiera sabido antes de su existencia estoy seguro de que habría pasado mis ficheros Javascript por estas herramientas.
 
@@ -1285,10 +1477,10 @@ Creo que Highcharts es una herramienta muy útil y muy dinámica que te permite re
 
 \begin{enumerate}
   \item De cara a futuras versiones de este Trabajo Fin de Grado, creo que sería interesante poder dar la opción al usuario de modificar el fichero de configuración para filtrar que errores quiere el usuario que se tengan en cuenta y cuales no.
-  \item También a\~{n}adirle nuevas herramientas de análisis de otros lenguajes para poder analizar distintos tipos de ficheros de diferentes lenguajes que puedan encontrarse en un ejercicio y así, de esta manera, solventar el problema de que ejercicios en los que no se use javascript se queden sin ser analizados. 
+  \item También a\~{n}adirle nuevas herramientas de análisis de otros lenguajes para poder analizar distintos tipos de ficheros de diferentes lenguajes que puedan encontrarse en un ejercicio y así, de esta manera, solventar el problema de que ejercicios en los que no se use JavaScript se queden sin ser analizados. 
   \item Dar la opción de poder visualizar los datos de distintas formas en lo que se refiere a las gráficas, es decir, poder proporcionar los datos en otro formato de gráfica si se desea.
   \item Poder compartir el progreso o cierta información del análisis en redes sociales como Twitter o Facebook.
-  \item Adaptar el proyecto para que no solo funcione con repositorios de Github puede ser buena idea para que sea más accesible a otros usuarios.
+  \item Adaptar el proyecto para que no solo funcione con repositorios de GitHub puede ser buena idea para que sea más accesible a otros usuarios.
   \item Comparar el progreso que tienen los diferentes usuarios desde el punto de vista del profesor, en el sentido de que pueda ver el progreso de sus alumnos a lo largo del tiempo por cada ejercicio de profesor analizado.
 \end{enumerate}
  
