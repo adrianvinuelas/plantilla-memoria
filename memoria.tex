@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%,%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Plantilla de memoria en LaTeX para la ETSIT - Universidad Rey Juan Carlos
 %%
 %% Por Gregorio Robles <grex arroba gsyc.urjc.es>
@@ -465,7 +465,7 @@ Un objeto TeacherExercise almacena toda la información relacionada con el ejerci
 \begin{itemize}
   \item la URL del ejercicio del profesor de GitHub (urlTeacherEx),
   \item el resumen de los errores que han tenido todos los alumnos (summary),
-  \item el ranking de porcentaje de errores (rankingpercent), ordenando los alumnos de menor a mayor en función del número de errores y de los ficheros entregados. Por ejemplo, en cada fichero como máximo se pueden detectar 100 errores por cada herramienta que lo analiza, es decir, un total de 200 errores por fichero. Si un alumno solo tiene 1 fichero JavaScript analizado para ese ejercicio y ha tenido 40 errores, el porcentaje de errores para ese alumno es de un 20 por ciento. Si por otro lado otro alumno ha entregado 2 ficheros y ha tenido 40 errores, el porcentaje de errores para este alumno es de un 10 por ciento (más ficheros para el mismo número de errores, por tanto, menor porcentaje),
+  \item el ranking de porcentaje de errores (rankingpercent), ordenando los alumnos de menor a mayor en función del número de errores y de los ficheros entregados. Por ejemplo, en cada fichero como máximo se pueden detectar 100 errores por cada herramienta que lo analiza, es decir, un total de 200 errores por fichero. Si un alumno solo tiene 1 fichero JavaScript analizado para ese ejercicio y ha tenido 40 errores, el porcentaje de errores para ese alumno es de un 20\%. Si por otro lado otro alumno ha entregado 2 ficheros y ha tenido 40 errores, el porcentaje de errores para este alumno es de un 10\% (más ficheros para el mismo número de errores, por tanto, menor porcentaje),
   \item el ranking de ficheros entregados (rankingfich), ordenando los alumnos de mayor a menor en función del número de ficheros entregados,
   \item el ranking de errores (rankingerrors), ordenando de mayor a menor los errores en función del número de errores totales de cada tipo que hayan tenido los alumnos para ese ejercicio,
   \item la información para crear mediante Highcharts la gráfica de los errores JSLint y JSHint (data),
@@ -1278,7 +1278,7 @@ Este mismo caso se cumple en los ejercicios noveno y décimo analizados.
 
 En este caso es al revés. En el noveno, que es la rama \textbf{master}, lo entregaron 17 alumnos y en el décimo, que es la rama \textbf{gh-pages}, lo entregaron 24. Esto se debe a que hay ejercicios que se piden que sean entregados directamente en la rama gh-pages y por eso hay alumnos que directamente no entregan nada en la rama master y si en la rama gh-pages. Como se puede ver la diferencia de errores entre una rama y otra es de 1022 errores. Por tanto, no solo vale con analizar una rama en muchos casos, si no que analizar las dos nos puede decir con más exactitud que alumnos entregaron un ejercicio y que alumnos no. Además, estos dos ejercicios (que en realidad son uno pero separado en dos ramas) son una práctica importante del curso (y no un ejercicio de entrega normal), con lo cual el número de errores vuelve a subir porque lo han entregado la mayoría de los alumnos, y los ficheros suelen tener mucho más código.
 
-  \item En el ejercicio sexto predomina el error ``Use spaces,not tabs'' que está relacionado con el error ``Expected ``X'' at column ``y'', not column ``z'' que sigue predominando (nos vamos dando cuenta de que es muy frecuente entre las diferentes entregas).
+  \item En el ejercicio sexto predomina el error ``Use spaces, not tabs'' que está relacionado con el error ``Expected ``X'' at column ``y'', not column ``z'' que sigue predominando (nos vamos dando cuenta de que es muy frecuente entre las diferentes entregas).
   \item En los siguientes análisis siguen predominando los errores ``Use spaces,not tabs'', ``Expected ``X'' at column ``y'', not column ``z'', ````X'' is not defined'' y ``was used before it was defined''.
   \item Y para terminar la simulación podemos observar el top 5 de los errores más comunes a lo largo del curso. Estos errores pueden dar una idea de que puntos debe comentar el profesor en clase a sus alumnos. En nuestro caso, vemos que los errores más comunes son (y que habiendo visto la evolución podemos intuir ya cuales son) :
 \begin{figure}[H]
@@ -1326,9 +1326,9 @@ El alumno parte de un primer análisis del ejercicio en el que obtiene 140 errore
   \label{fig:arquitectura}
 \end{figure}
 
-Como se puede apreciar, los errores más comunes son ``Expected ``X'' at column ``y'', not column ``z'' '' , ``Use spaces, not tabs '', ``Mixed double and single quotes'', y ``Expected === and instead saw ==''. El alumno ha identificado los errores y los ha corregido antes de pasar el ejercicio de nuevo por la aplicación.
+Como se puede apreciar, los errores más comunes son ``Expected ``X'' at column ``y'', not column ``z'' '' , ``Use spaces, not tabs'', ``Mixed double and single quotes'', y ``Expected === and instead saw ==''. El alumno ha identificado los errores y los ha corregido antes de pasar el ejercicio de nuevo por la aplicación.
 
-En un segundo análisis el alumno ha obtenido 171 errores. El número de errores ha aumentado debido a que en el primer análisis JSLint se paró cuando había analizado un 15 por ciento del fichero (y JSLint solamente detectó 52 errores), y al haber arreglado el error que hizo que el análisis se detuviera ha permitido que en el segundo análisis JSLint llegue hasta un 34 por ciento antes de detenerse de nuevo (está vez por haber alcanzado el número máximo de errores permitido).
+En un segundo análisis el alumno ha obtenido 171 errores. El número de errores ha aumentado debido a que en el primer análisis JSLint se paró cuando había analizado un 15\% del fichero (y JSLint solamente detectó 52 errores), y al haber arreglado el error que hizo que el análisis se detuviera ha permitido que en el segundo análisis JSLint llegue hasta un 34\% antes de detenerse de nuevo (está vez por haber alcanzado el número máximo de errores permitido).
 
 \begin{figure}[H]
   \centering
@@ -1339,7 +1339,7 @@ En un segundo análisis el alumno ha obtenido 171 errores. El número de errores h
 
 Esta vez observamos que los errores más comunes siguen siendo ``Expected ``X'' at column ``y'', not column ``z'' '' y ``Mixed double and single quotes''. Esto indica que demomento son los errores más comunes que el alumno ha tenido, y por tanto la aplicación le está obligando a corregirlos, lo que hace que el alumno asimile como se deben solucionar estos errores y repitiendo el proceso de corregir estos errores (43 y 52 veces por cada tipo de error) lo que se busca es que el alumno vaya cogiendo la metodología de programación adecuada (y que es uno de los objetivos del proyecto).
 
-En el tercer análisis se observa que el alumno ha corregido la mayoría de los errores del tipo ``Expected ``X'' at column ``y'', not column ``z'' '' pero vemos que el número total de errores sigue siendo de 171. Esto se debe a que JSLint ha continuado analizando el fichero (hasta un 56 por ciento) pero ha vuelto a llegar al número máximo de errores permitido.
+En el tercer análisis se observa que el alumno ha corregido la mayoría de los errores del tipo ``Expected ``X'' at column ``y'', not column ``z'' '' pero vemos que el número total de errores sigue siendo de 171. Esto se debe a que JSLint ha continuado analizando el fichero (hasta un 56\%) pero ha vuelto a llegar al número máximo de errores permitido.
 
 \begin{figure}[H]
   \centering
@@ -1348,7 +1348,7 @@ En el tercer análisis se observa que el alumno ha corregido la mayoría de los er
   \label{fig:arquitectura}
 \end{figure}
 
-Ahora el alumno ha corregido de nuevo los errores que tenía en el anterior análisis. Se observa que el número de errores ya comienza a bajar (ahora ha obtenido 149) al mismo tiempo que el fichero está casi analizado por completo (95 por ciento). escaneado). El número de errores no ha bajado de forma considerable debido a que aunque el alumno ha corregido gran parte de los errores, ahora se ha analizado un 39 por ciento del fichero en el que se han seguido identificando más errores.
+Ahora el alumno ha corregido de nuevo los errores que tenía en el anterior análisis. Se observa que el número de errores ya comienza a bajar (ahora ha obtenido 149) al mismo tiempo que el fichero está casi analizado por completo (95\% escaneado). El número de errores no ha bajado de forma considerable debido a que, aunque el alumno ha corregido gran parte de los errores, ahora se ha analizado un 39\% del fichero en el que se han seguido identificando más errores.
 
 \begin{figure}[H]
   \centering
@@ -1359,7 +1359,7 @@ Ahora el alumno ha corregido de nuevo los errores que tenía en el anterior análi
 
 Como se puede observar el alumno aún no ha corregido los errores del tipo ``Mixed double and single quotes''. 
 
-Ya casi con todo el fichero analizado. El alumno vuelve a arreglar los errores identificados y el resultado obtenido es que con un 100 por cien del fichero análizado (y por tanto del ejercicio puesto que solo contiene un fichero .js para analizar) el alumno ha obtenido 64 errores.
+Ya casi con todo el fichero analizado, el alumno vuelve a arreglar los errores identificados y el resultado obtenido es que con un 100\% del fichero análizado (y, por tanto, del ejercicio puesto que solo contiene un fichero .js para analizar) el alumno ha obtenido 64 errores.
 
 \begin{figure}[H]
   \centering
@@ -1368,7 +1368,7 @@ Ya casi con todo el fichero analizado. El alumno vuelve a arreglar los errores i
   \label{fig:arquitectura}
 \end{figure}
 
-Ahora podemos observar que el alumno ha corregido la mayoría de los errores que le ha ido mostrando la aplicación. Como ya se explicó en la sección 3, el uso de JSLint y JSHint es a modo de consejo y no como reglas estrictas de ahí que aún queden errores por corregir. Una vez finalizado el proceso vemos como ha sido su evolución.
+Ahora podemos observar que el alumno ha corregido la mayoría de los errores que le ha ido mostrando la aplicación. Como ya se explicó en Capítulo 3, el uso de JSLint y JSHint es a modo de consejo y no como reglas estrictas de ahí que aún queden errores por corregir. Una vez finalizado el proceso vemos cómo ha sido su evolución.
 
 \begin{figure}[H]
   \centering
@@ -1384,7 +1384,7 @@ Ahora podemos observar que el alumno ha corregido la mayoría de los errores que 
   \label{fig:arquitectura}
 \end{figure}
 
-Una vez realizada toda la simulación podemos decir que el alumno ha ido identificando cuales son los errores más frecuentes que ha cometido, los ha ido solucionando poco a poco y asimilando los conceptos de por qué se identifican esos errores y como corregirlos. Repitiendo este proceso con todos los ejercicios que el alumno vaya desarrollando se conseguirá que el alumno vaya obteniendo una metodología de trabajo a la hora de programar en Javascript y que sus códigos sean más legibles. Vemos un ejemplo de una función del código del alumno antes y después de analizar el ejercicio.
+Una vez realizada toda la simulación podemos decir que el alumno ha ido identificando cuáles son los errores más frecuentes que ha cometido, los ha ido solucionando poco a poco y asimilando los conceptos de por qué se identifican esos errores y como corregirlos. Repitiendo este proceso con todos los ejercicios que el alumno vaya desarrollando se conseguirá que el alumno vaya obteniendo una metodología de trabajo a la hora de programar en Javascript y que sus programas sean más legibles. Vemos un ejemplo de una función del código del alumno antes y después de analizar el ejercicio.
 
 \begin{figure}[H]
   \centering
@@ -1435,7 +1435,7 @@ En la parte de ayudar al profesor ha realizar un seguimiento de sus alumnos creo
 
 \begin{itemize} 
   \item Si se analizan librerías u otros ficheros necesarios en el ejercicio pero que no son del alumno, pierde eficacia puesto que se detectan errores que no son del alumno. La solución a este problema ha sido dar la posibilidad al usuario de introducir nombres de ficheros \textbf{.js} para evitar su análisis.
-  \item El ranking de los alumnos, no es 100\% preciso, puesto que para aquellos alumnos en los que el análisis de JSLint encuentra un error grave y se detenga, tendrán menor porcentaje de errores. La solución a este problema ha sido introducir un segundo análisis con JSHint (que no detiene el análisis) para intentar ser más preciso.
+  \item El ranking de los alumnos no es 100\% preciso, puesto que para aquellos alumnos en los que el análisis de JSLint encuentra un error grave y se detenga, tendrán menor porcentaje de errores. La solución a este problema ha sido introducir un segundo análisis con JSHint (que no detiene el análisis) para intentar ser más preciso.
   \item Solamente analiza un lenguaje en concreto, por lo que si hay ejercicios durante el curso en los que no se usa JavaScript, no se podrán analizar todos los ejercicios. En una versión futura de esta herramienta esto se podría mejorar introduciendo nuevas herramientas de análisis de otros lenguajes.
 \end{itemize}
 %Gregorio: Esta sección es la sección espejo de las dos primeras del capítulo de objetivos,
