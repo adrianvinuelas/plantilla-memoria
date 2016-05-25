@@ -32,7 +32,7 @@
 \usepackage{latexsym}  %% Logo LaTeX
 
 \title{Memoria del Proyecto}
-\author{Nombre del autor}
+\author{Adrián Viñuales Pereda}
 
 \renewcommand{\baselinestretch}{1.5}  %% Interlineado
 
@@ -75,7 +75,7 @@ Trabajo Fin de Carrera/Grado/Máster
 \vspace{2.5cm}
 
 \LARGE
-TÍTULO DEL TRABAJO EN MAYÚSCULAS
+APLICACIÓN WEB DE ANÁLISIS DE PROYECTOS JAVASCRIPT
 
 \vspace{4cm}
 
@@ -103,7 +103,7 @@ Tutor : Dr. Gregorio Robles
 
 \vspace{1cm}
 \large
-FIXME: Título
+Aplicación Web de Análisis de Proyectos JavaScript
 
 \vspace{1cm}
 \large
@@ -113,7 +113,7 @@ FIXME: Título
 \end{center}
 
 \vspace{1cm}
-La defensa del presente Proyecto Fin de Carrera se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2016, siendo calificada por el siguiente tribunal:
+La defensa del presente Proyecto Fin de Carrera se realizó el día \qquad$\;\,$ de junio de 2016, siendo calificada por el siguiente tribunal:
 
 
 \vspace{0.5cm}
@@ -135,7 +135,7 @@ y habiendo obtenido la siguiente calificación:
 
 \vspace{1cm}
 \begin{flushright}
-Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 2016
+Fuenlabrada, a \qquad$\;\,$ de junio de 2016
 \end{flushright}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -177,13 +177,13 @@ Gracias a todos, porque se que os alegráis siempre más que yo por todo lo bueno 
 %\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
 \markboth{RESUMEN}{RESUMEN} % encabezado
 
-Este proyecto trata de mejorar el desarrollo y las habilidades de los alumnos a la hora de escribir programas usando código Javascript durante sus a\~{n}os de formación en la universidad, así como dar una visión, del progreso durante el curso, tanto general de toda la clase como específica de cada alumno al profesor. Es decir, por un lado se intenta ayudar al profesor a tener una idea de la evolución de sus alumnos, para poder afrontar las clases de la mejor manera posible ayudando a sus alumnos a mejorar sus habilidades, y por otro lado se intenta que los alumnos se den cuenta de cuales son sus errores y cuales son las mejores técnicas para escribir código Javascript y continuar progresando en su formación.
+Este proyecto tiene como objetivo mejorar el desarrollo de habilidades de estudiantes a la hora de escribir programas usando código Javascript. Se ha creado una herramienta que permite obtener una visión del progreso durante el curso, tanto general de toda la clase como específica de cada alumno al profesor. Es decir, por un lado se intenta ayudar al profesor a tener una idea de la evolución de sus alumnos, para poder afrontar las clases de la mejor manera posible ayudando a sus alumnos a mejorar sus habilidades, y por otro lado se intenta que los alumnos se den cuenta de cuales son sus errores y cuales son las mejores técnicas para escribir código Javascript y continuar progresando en su formación.
 
 Para ello se ha creado una aplicación web en la que tanto alumnos como profesores puedan incluir el ejercicio que se quiere analizar (en el caso del rol de profesor analiza los ejercicios de toda la clase) y posteriormente la aplicación realiza y muestra un análisis detallado de todos los errores que encuentra en el ejercicio, y permite realizar un seguimiento a lo largo del tiempo para ver la progresión de los alumnos.
 
-Se han empleado tecnologías como Bootstrap, jQuery, jQuery-UI para el desarrollo de la web. Por otro lado con Django he implementado el servidor (implementado en Python), y con AJAX he realizado las comunicaciones entre servidor y cliente (implementado en Javascript). Con Highcharts he podido realizar las gráficas, y con JSLint y JSHint he realizado el análisis del código Javascript. 
+Se han empleado tecnologías como Bootstrap, jQuery, jQuery-UI para el desarrollo de la aplicación. Por otro lado con Django he implementado el servidor (implementado en Python), y con AJAX he realizado las comunicaciones entre servidor y cliente (implementado en Javascript). Con Highcharts he podido realizar las gráficas, y con JSLint y JSHint he realizado el análisis del código Javascript. 
 
-El proyecto surge de una idea de mi tutor, el cual como profesional en el campo educativo me comunica que necesita una herramienta para intentar ayudar a sus alumnos a mejorar el desarrollo de sus programas usando como lenguaje Javascript. Poco a poco se van incluyendo nuevas ideas que dan como resultado este proyecto.
+%El proyecto surge de una idea de mi tutor, el cual como profesional en el campo educativo me comunica que necesita una herramienta para intentar ayudar a sus alumnos a mejorar el desarrollo de sus programas usando como lenguaje Javascript.
 
 %Gregorio: Aquí viene un resumen del proyecto. Ha de constar de tres o cuatro párrafos,
 %donde se presente de manera clara y concisa de qué va el proyecto. Han
@@ -217,7 +217,7 @@ For this reason I have created a web application in which both students and teac
 
 Technologies have been used as Bootstrap, jQuery, jQuery-UI for web development. On the other hand with Django I implemented the server (implemented in Python), and I have made AJAX communications between client and server (implemented in Javascript). With Highcharts I could make graphs, and with JSHint and JSLint I have made the analysis of Javascript code.
 
-The project stems from an idea of my tutor, who as a professional in the field of education informs me he needs a tool to try to help their students improve their software development using language like Javascript. Little by little they are including new ideas that result in this project.
+%The project stems from an idea of my tutor, who as a professional in the field of education informs me he needs a tool to try to help their students improve their software development using language like Javascript. Little by little they are including new ideas that result in this project.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -256,7 +256,7 @@ Este proyecto está pensado para ayudar a los futuros desarrolladores, y que actu
 
 Es una aplicación web, que sirve de herramienta tanto a alumnos como a profesores. La aplicación busca dar una orientación a los estudiantes para que desarrollen códigos que puedan ser legibles y entendibles por una persona que tenga que usarlo posteriormente. Es verdad que los alumnos solo hacen ejercicios semanales y prácticas finales, pero en la vida laboral normalmente se trabaja con códigos desarrollados por varias personas, y que por tanto tienen que estar claros y ser perfectamente legibles, independientemente de que funcionen correctamente, ya que el entender un código fácilmente puede ahorrar muchas horas de trabajo a la persona que lo lee por primera vez.
 
-Al principio yo mismo no entendía muy bien el por qué de darle tanta importancia por parte de profesores que nos animaban a escribir nuestros códigos de una manera ordenada y clara. Cuando comencé el proyecto, y a medida que iba avanzándolo, me daba cuenta de que realizar ciertas acciones simples puede mejorar nuestra forma de desarrollar nuestro código. ¿A quién no le ha pasado escribir un código de un programa, dejarlo apartado durante un tiempo, volverlo a retomar y decir: ``No entiendo que hice aquí''? Creo que no somos conscientes cuando escribimos nuestros programas de que con el tiempo, habremos hecho tantos programas que es muy difícil acordarse de todas las funcionalidades que hemos ido implementando. Por esta razón, acciones tan sencillas como estructurar bien el código, dar buenos nombres a nuestras variables y funciones, e incluso usar correctamente espacios y tabulaciones, pueden facilitarnos mucho el trabajo el día de ma\~{n}ana.
+Al principio yo mismo no entendía muy bien el porqué de darle tanta importancia por parte de profesores que nos animaban a escribir nuestros códigos de una manera ordenada y clara. Cuando comencé el proyecto, y a medida que iba avanzándolo, me daba cuenta de que realizar ciertas acciones simples puede mejorar nuestra forma de desarrollar nuestro código. ¿A quién no le ha pasado escribir un código de un programa, dejarlo apartado durante un tiempo, volverlo a retomar y decir: ``No entiendo que hice aquí''? Creo que no somos conscientes cuando escribimos nuestros programas de que con el tiempo, habremos hecho tantos programas que es muy difícil acordarse de todas las funcionalidades que hemos ido implementando. Por esta razón, acciones tan sencillas como estructurar bien el código, dar buenos nombres a nuestras variables y funciones, e incluso usar correctamente espacios y tabulaciones, pueden facilitarnos mucho el trabajo el día de ma\~{n}ana.
 
 Es una idea muy simple pero que la mayoría no implementamos correctamente. Y es importante que desde la base de la formación se cojan buenos hábitos.
 
@@ -274,7 +274,7 @@ Es una idea muy simple pero que la mayoría no implementamos correctamente. Y es 
 
 Llega un momento en el que no solo tienes que tratar con códigos desarrollados por ti mismo, si no que tienes que enfrentarte a códigos desarrollados por otras personas y los cuales tienes que analizar para poder trabajar con ellos. Y es en ese momento cuando uno se da cuenta de lo importante que es desarrollar un código limpio y legible, para que cuando otras personas tengan que utilizarlo, sepan como interpretarlo fácilmente dentro de la dificultad que tiene el que muy probablemente no haya dos personas que utilicen las mismas técnicas a la hora de desarrollar su código, ya sea en el lenguaje de programación que sea.
 
-Por esta razón, el objetivo general del proyecto es transmitir a los usuarios (principalmente los estudiantes, que son quienes están comenzando a desarrollar su código) de la aplicación que tan importante es que funcione el código que estamos escribiendo, como que sea entendible por otros usuarios. Muchas veces, cuando nos preguntan que si podemos echar una mano a alguien, cuando nos encontramos ante un código que contiene muchas líneas, si el nombre de las variables, las tabulaciones, los espacios, o nombres de funciones por ejemplo no nos ayudan a entender que se está haciendo o que es lo que se quiere hacer, es muy difícil entender un programa. Y es peor aún cuando te pasan un código que no es legible, y que además no puedes contactar con la persona que lo ha desarrollado para que te explique el por qué de que el código esté así desarrollado.
+Por esta razón, el objetivo general del proyecto es transmitir a los usuarios (principalmente los estudiantes, que son quienes están aprendiendo a desarrollar código) de la aplicación que tan importante es que funcione el código que estamos escribiendo, como que sea entendible por otros usuarios. Muchas veces, cuando nos preguntan que si podemos echar una mano a alguien, cuando nos encontramos ante un código que contiene muchas líneas, si el nombre de las variables, las tabulaciones, los espacios, o nombres de funciones por ejemplo no nos ayudan a entender que se está haciendo o que es lo que se quiere hacer, es muy difícil entender un programa. Y es peor aún cuando te pasan un código que no es legible, y que además no puedes contactar con la persona que lo ha desarrollado para que te explique el por qué de que el código esté así desarrollado.
 
 Conseguir transmitir la idea de que un código limpio, legible, bien estructurado, y que ayude a entender lo que se está haciendo es tan importante como que funcione bien es fundamental. Y si este trabajo se comienza a hacer desde que los alumnos comienzan su formación, se conseguirá que en el futuro encontremos buenos códigos desarrollados correctamente dentro de unas ciertas pautas. La idea también es hacer entender que seguir las pautas que creamos correctas para desarrollar un buen código no tienen por qué ser las mismas para todos los usuarios, pero si que si todos seguimos un mismo camino será más fácil que todos desarrollemos buenos códigos. Es como aprender a escribir, a todos nos ense\~{n}an desde peque\~{n}os pero no todos nos expresamos igual. La idea es expresarse lo mejor posible para que los demás nos entiendan. Con los códigos pasa exactamente lo mismo. En ningún caso debemos tomar las pautas que se establecen en este proyecto como reglas estrictas que haya que seguir y si a modo de consejo. Simplemente como una ayuda para que nuestro código sea accesible para todos.
 
@@ -286,7 +286,7 @@ Centrándome más en unos objetivos específicos que me gustaría conseguir, podemos
 
 Empezando por la parte del profesor, lo que he intentado buscar es una forma de poder dar al profesor tanto una visión general de como toda la clase (los alumnos) desarrolla el código Javascript de los ejercicios que semanalmente entregan, como una visión especifica de cada alumno en particular. El objetivo para la parte del profesor es que el profesor pueda realizar un seguimiento de todos sus alumnos por cada ejercicio entregado y poder ver como estos desarrollan su código Javascript. Por cada ejercicio semanal, se realiza un análisis tanto a nivel colectivo como individual de los errores (que realmente no son errores pero que los trataremos como tales) que los alumnos han cometido, y se da una idea al profesor de que aspectos deberían mejorar a la hora de desarrollar el código, ya sea bien usar espacios en lugar de tabulaciones, declarar variables antes de usarlas (puesto que en Javascript no se tiene por qué declarar variables antes de usarlas) entre otros muchos aspectos que se podrían mejorar y en los que el profesor pueda hacer hincapié para intentar que sus alumnos mejoren. Creo que a los profesores les gusta ver que los ejercicios de sus alumnos, además de que funcionen, estén bien desarrollados y estructurados.
 
-En segundo lugar , centrándome en la parte del alumno, el objetivo es quizás más difícil, puesto que para los alumnos lo primero es ver que lo que escriben en su código funciona y lo demás es un poco más secundario para ellos, por lo que el reto es mucho mayor. Yo también he sido alumno y esa era mi principal preocupación, pero en mi primer curso hice un programa enorme que funcionaba perfectamente y hacía todo lo que se me pedía, pero suspendí porque era totalmente ilegible (la inexperiencia del primer a\~{n}o). En su momento me pareció muy injusto, pero luego entendí que tan importante es que funcione como que se pueda leer y entender por otros usuarios. Por eso busco ayudar a los alumnos para que entiendan desde el primer momento que tienen que esforzarse también por desarrollar un código legible y limpio. Creo que si se empieza la formación por una buena base y se acostumbra a los futuros alumnos a escribir su código siguiendo una serie de pautas, el día de ma\~{n}ana cuando nos pasen un código que no es nuestro (y que es el pan de cada día en muchos trabajos) el esfuerzo por entender lo que hace el programa y como lo hace será mucho mas rápido y fácil.
+En segundo lugar, centrándome en la parte del alumno, el objetivo es quizás más difícil, puesto que para los alumnos lo primero es ver que lo que escriben en su código funciona y lo demás es un poco más secundario para ellos, por lo que el reto es mucho mayor. Yo también he sido alumno y esa era mi principal preocupación, pero en mi primer curso hice un programa enorme que funcionaba perfectamente y hacía todo lo que se me pedía, pero suspendí porque era totalmente ilegible (la inexperiencia del primer a\~{n}o). En su momento me pareció muy injusto, pero luego entendí que tan importante es que funcione como que se pueda leer y entender por otros usuarios. Por eso busco ayudar a los alumnos para que entiendan desde el primer momento que tienen que esforzarse también por desarrollar un código legible y limpio. Creo que si se empieza la formación por una buena base y se acostumbra a los futuros alumnos a escribir su código siguiendo una serie de pautas, el día de ma\~{n}ana cuando nos pasen un código que no es nuestro (y que es el pan de cada día en muchos trabajos) el esfuerzo por entender lo que hace el programa y como lo hace será mucho mas rápido y fácil.
 
 
 \section{Planificación temporal}
@@ -294,12 +294,12 @@ En segundo lugar , centrándome en la parte del alumno, el objetivo es quizás más
 
 La forma en la que me he organizado para realizar este proyecto ha sido la siguiente:
 \begin{enumerate}
-  \item Reunión con mi tutor para aclarar todos los aspectos necesarios para poder arrancar el proyecto (tanto el tema del proyecto como que tecnologías podía utilizar para ir arrancando la aplicación). Me documente sobre la herramienta JSLint ya que nunca antes había trabajado con ella.
-  \item Realice una primera versión, sin usar Bootstrap, en la que implemente la funcionalidad básica del profesor. Comprobaba los alumnos que habían entregado el ejercicio, y descargaba uno a uno (según el alumno que seleccionaba) los ejercicios, los analizaba (solamente usando JSLint) y por el momento no contemplaba los errores.
+  \item Reunión con mi tutor para aclarar todos los aspectos necesarios para poder arrancar el proyecto (tanto el tema del proyecto como que tecnologías podía utilizar para ir arrancando la aplicación). Me documenté sobre la herramienta JSLint ya que nunca antes había trabajado con ella.
+  \item Realicé una primera versión, sin usar Bootstrap, en la que implementé la funcionalidad básica del profesor. Comprobaba los alumnos que habían entregado el ejercicio, y descargaba uno a uno (según el alumno que seleccionaba) los ejercicios, los analizaba (solamente usando JSLint) y por el momento no contemplaba los errores.
   \begin{itemize}
     \item A su vez iba desarrollando un servidor muy básico que con el desarrollo de la aplicación fue cogiendo la forma.
   \end{itemize}
-  \item Pasar la primera a versión a una segunda versión que incluía Bootstrap, para dar una forma más moderna y atractiva al proyecto. De momento sólo con la funcionalidad del profesor aún por mejorar. Este paso fue adaptar lo que ya tenía a una versión más moderna visualmente.
+  \item Pasar la primera a versión a una segunda versión que incluía Bootstrap, para dar una forma más moderna y atractiva al proyecto. De momento sólo con la funcionalidad del profesor,  aún por mejorar. Este paso fue adaptar lo que ya tenía a una versión más moderna visualmente.
   \item Incluí la funcionalidad del alumno, y mejoré la del profesor para que analizara todos los ejercicios de sus alumnos de manera automática cuando el profesor indicaba que ejercicio quería analizar.
   \begin{itemize}
     \item Hasta este momento todavía no había incluido ni JSHint, ni Highcharts.
@@ -307,7 +307,7 @@ La forma en la que me he organizado para realizar este proyecto ha sido la sigui
   \item Introducción de una segunda herramienta que complementara el análisis realizado por JSLint, ya que para ciertos alumnos, al cometer errores que JSLint consideraba graves la propia herramienta paraba el análisis. Hablo de JSHint. Ambas herramientas no miden lo bueno o malo que es un código Javascript, simplemente ayudan a mejorar y orientar al desarrollador para mejorar su código y hacerlo más legible y eficaz.
   \item Para que el análisis de los errores fuera más visual, introduje finalmente Highcharts que me permitía utilizar gráficas para mostrar el número de errores de cada tipo que había identificado la aplicación. También aproveché esta herramienta para facilitar el seguimiento de la evolución a lo largo del tiempo que muestro al usuario en su menú principal.
   \item Una última mejora introducida al final, y aprovechando el uso de Highcharts, fue la implementación de una gráfica en la que se comparaban los errores del ejercicio actual, con los errores del último ejercicio analizado, y así ver en que errores se había mejorado y en cuales empeorado respecto al ejercicio anterior. Se busca con esto una forma de motivar a los usuarios (sobre todo a los alumnos) a mejorar sus códigos para reducir el número de errores y por otro lado que resulte más atractiva la aplicación para ellos.
-  \item Finalmente y como un peque\~{n}o detalle, decidí dar la opción al usuario de introducir librerías que pueden ser usadas en los ejercicios (pero que no están implementadas por los alumnos, y que por tanto su análisis no es de interés) para que se descarte su análisis, y que por tanto el servidor identificará de que ficheros se trata ya que estarán en la base de datos guardados y la aplicación omitirá su análisis.
+  \item Finalmente, y como un peque\~{n}o detalle, decidí dar la opción al usuario de introducir librerías que pueden ser usadas en los ejercicios (pero que no están implementadas por los alumnos, y que por tanto su análisis no es de interés) para que se descarte su análisis, y que por tanto el servidor identificará de que ficheros se trata ya que estarán en la base de datos guardados y la aplicación omitirá su análisis.
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -358,7 +358,7 @@ Es abierto, todas las características pueden ser personalizadas permitiendo una 
 \section{JSLint} 
 \label{sec:jslint}
 
-JSLint es una herramienta de análisis estático de código utilizada en el desarrollo de software para comprobar si el código fuente Javascript cumple con las normas de codificación . Se proporciona principalmente como una herramienta en línea, pero también hay adaptaciones de línea de comandos.
+JSLint es una herramienta de análisis estático de código utilizada en el desarrollo de software para comprobar si el código fuente Javascript cumple con las normas de codificación. Se proporciona principalmente como una herramienta en línea, pero también hay adaptaciones de línea de comandos.
 
 Realiza la lectura del código fuente y devuelve observaciones o puntos en los que el código puede mejorarse desde la percepción de buenas prácticas de programación y código limpio. Nos permitirá mostrar puntos en los que el código no cumpla unas determinadas reglas establecidas de ``código limpio''.
 
@@ -435,23 +435,23 @@ La base de datos está compuesta por: User, Usuario, TeacherExercise, StudentExer
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.3]{img/diagramabbdd}
-  \caption{Diagrama bbdd.}
+  \caption{Diagrama con las tablas de la base de datos de la aplicación.}
   \label{fig:arquitectura}
 \end{figure}
 
 \subsection{User} 
 \label{sec:user}
 
-User es un objeto que Django proporciona por defecto. En el definimos el nombre (username), el email (Email address), y la contrase\~{n}a (password) del usuario que se crea.
+User es un objeto que Django proporciona por defecto. En el definimos el nombre (username), el correo electrónico (email address), y la contrase\~{n}a (password) del usuario que se crea.
 
 Por otro lado, los usuarios pueden tener el rol de profesor o de estudiante. Para ello aprovechamos este objeto y le incluimos el rol (first\_name). Con esto tenemos identificado al usuario tanto por su nombre como por su rol. Y cuando se loguea un usuario podemos comprobar la contrase\~{n}a para ver si es correcta la autenticación.
 
 \subsection{Usuario} 
 \label{sec:usuario}
 
-Este objeto puede parecer innecesario puesto que ya tenemos a un usuario definido por defecto en Django. Pero Django no permite guardar cierta información en ese objeto User. Por eso tengo definido el objeto Usuario que me permite almacenar la información relacionada con los propios usuarios de la aplicación. Almacena:
+Este objeto puede parecer innecesario puesto que ya tenemos a un usuario definido por defecto en Django. Pero Django no permite guardar cierta información en ese objeto \emph{User}. Por eso tengo definido el objeto Usuario que me permite almacenar la información relacionada con los propios usuarios de la aplicación. Almacena:
 \begin{itemize}
-  \item el nombre de usuario (user, con el que puedo relacionarlo con el objeto User),
+  \item el nombre de usuario (\emph{user}, con el que puedo relacionarlo con el objeto \emph{User}),
   \item el \emph{ranking} de los 5 errores más comunes (rankingerrors),
   \item y la información necesaria para realizar la gráfica de la evolución (data).
 \end{itemize}
@@ -697,7 +697,7 @@ Lo primero que hace el servidor es coger al usuario activo y comprobar que tiene
 
 A continuación guarda en la base de datos un nuevo ejercicio de estudiante (\textbf{StudentExercise}) con los valores iniciales por defecto, puesto que a medida que se vaya analizando se irán actualizando. 
 
-Posteriormente intenta descargar el repositorio, bien sea de la rama \textbf{master} o de la rama \textbf{gh-pages}. Si se produce algún fallo en la descarga del repositorio no se analiza nada. Si se descarga correctamente, se llama a una función que lo que hará será buscar ficheros con extensión \textbf{.js} y los analizará. Cuando encuentra un fichero \textbf{.js} , lo primero que hace es mirar a ver si es una librería o algún fichero que está en la base de datos y que no queremos analizar. Si el fichero debe ser analizado se procede a ello aplicando primero la herramienta JSLint y después JSHint. El procedimiento es el mismo para ambas herramientas:
+Posteriormente intenta descargar el repositorio, bien sea de la rama \textbf{master} o de la rama \textbf{gh-pages}. Si se produce algún fallo en la descarga del repositorio no se analiza nada. Si se descarga correctamente, se llama a una función que lo que hará será buscar ficheros con extensión \textbf{.js} y los analizará. Cuando encuentra un fichero \textbf{.js}, lo primero que hace es mirar a ver si es una librería o algún fichero que está en la base de datos y que no queremos analizar. Si el fichero debe ser analizado se procede a ello aplicando primero la herramienta JSLint y después JSHint. El procedimiento es el mismo para ambas herramientas:
 \begin{itemize}
   \item se aplica la herramienta JSLint o JSHint,
   \item se analizan uno por uno todos los errores para ver de que tipo son,
@@ -827,7 +827,7 @@ El resultado de las gráficas es el siguiente:
 \subsection{Crear y eliminar Librerías/ficheros} 
 \label{sec:arquitectura}
 
-Una de las opciones que permite la aplicación, es evitar el análisis de ciertos ficheros que no son de interés puesto que no los han desarrollado los alumnos y que por tanto no aportan ninguna información necesaria al análisis.
+Una de las opciones que permite la aplicación, es evitar el análisis de ciertos ficheros que no son de interés puesto que no los han desarrollado los alumnos y que, por tanto, no aportan ninguna información necesaria al análisis.
 
 \begin{figure}[H]
   \centering
@@ -836,7 +836,7 @@ Una de las opciones que permite la aplicación, es evitar el análisis de ciertos 
   \label{fig:arquitectura}
 \end{figure}
 
-Por defecto, la aplicación ya incluye unas librerías , pero da la opción de poder a\~{n}adir a la lista nuevos ficheros \textbf{.js}.
+Por defecto, la aplicación ya incluye unas librerías, pero da la opción de poder a\~{n}adir a la lista nuevos ficheros \textbf{.js}.
 %\begin{figure}[H]
 %    \centering
 %    \includegraphics[scale=0.4]{img/foto12}
@@ -1326,7 +1326,7 @@ El alumno parte de un primer análisis del ejercicio en el que obtiene 140 errore
   \label{fig:arquitectura}
 \end{figure}
 
-Como se puede apreciar, los errores más comunes son ``Expected ``X'' at column ``y'', not column ``z'' '' , ``Use spaces, not tabs'', ``Mixed double and single quotes'', y ``Expected === and instead saw ==''. El alumno ha identificado los errores y los ha corregido antes de pasar el ejercicio de nuevo por la aplicación.
+Como se puede apreciar, los errores más comunes son ``Expected ``X'' at column ``y'', not column ``z'' '', ``Use spaces, not tabs'', ``Mixed double and single quotes'', y ``Expected === and instead saw ==''. El alumno ha identificado los errores y los ha corregido antes de pasar el ejercicio de nuevo por la aplicación.
 
 En un segundo análisis el alumno ha obtenido 171 errores. El número de errores ha aumentado debido a que en el primer análisis JSLint se paró cuando había analizado un 15\% del fichero (y JSLint solamente detectó 52 errores), y al haber arreglado el error que hizo que el análisis se detuviera ha permitido que en el segundo análisis JSLint llegue hasta un 34\% antes de detenerse de nuevo (está vez por haber alcanzado el número máximo de errores permitido).
 
@@ -1419,7 +1419,7 @@ Una vez realizada toda la simulación podemos decir que el alumno ha ido identifi
 En la parte de ayudar al estudiante a entender la importancia de escribir un código legible y limpio creo que se ha conseguido mediante:
 \begin{itemize}
   \item El análisis de los ejercicios, haciendo un seguimiento del alumno durante el curso de todos los ejercicios entregados y mostrando los errores más comunes que ha ido teniendo, para que mejore sus puntos débiles.
-  \item La aplicación permite ver la explicación del por qué salen los errores, es decir, únicamente no ves que identifica errores, si no que da la posibilidad al alumno de que entienda el por qué salen los errores y como solucionarlos.
+  \item La aplicación permite ver la explicación de por qué salen los errores, es decir, únicamente no ves que identifica errores, si no que da la posibilidad al alumno de que entienda el porqué salen los errores y como solucionarlos.
   \item Se muestra al alumno la línea exacta en la que se identifica el error, para que no tenga que usar otra herramienta para abrir el fichero y luego buscar manualmente donde está el error. Simplificar el trabajo ayuda a que la aplicación sea más atractiva para el usuario.
 \end{itemize}
 
